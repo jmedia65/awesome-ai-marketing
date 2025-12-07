@@ -1,4 +1,4 @@
-# Awesome AI Marketing: Best AI Marketing Tools in 2026
+# Awesome AI Marketing: Best AI Marketing Tools for 2026
 
 > A curated list of AI tools and prompts worth testing for marketing.
 
