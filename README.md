@@ -118,22 +118,21 @@
 
 ### Visual Content
 
-- **[Canva Magic Studio](https://canva.com/magic/)** - Suite including Magic Design (prompt-to-graphics), Magic Media (text-to-image/video), and Magic Switch (one-click format conversion); TIME Best Inventions 2024. _Free basic; Pro $12.99/month._
-- **[Midjourney](https://midjourney.com)** - Still the best for marketing imagery despite all the competitors.
+- **[Canva Magic Studio](https://canva.com/magic/)** - Canva Magic Studio is Canva's suite of AI tools for generating designs from text prompts, creating images, editing photos (e.g., Magic Grab, Expand), and transforming content (e.g., Magic Switch for resizing, translating, or reformatting).
 
 ### Video Content
 
-- **[OpusClip](https://opus.pro)** - Analyzes long podcasts/webinars and auto-generates 10+ short clips with captions, AI-selected hooks, and virality scores—users report 40-50% watch time increases. _Free tier; Pro ~$29/month._
-- **[Synthesia](https://synthesia.io)** - Creates videos with 230+ realistic AI avatars speaking 140+ languages—no camera or actors needed; used by 100K+ businesses for training and marketing. _Free tier; Starter $22/month._
-- **[HeyGen](https://heygen.com)** - AI avatars for UGC-style marketing videos with voice cloning in 175+ languages and lip-sync translation; generates videos directly from product URLs. _Free tier; ~$29/month._
-- **[Descript](https://descript.com)** - Edit video by editing text—delete a word, clip gets cut; removes filler words in one click, clones voice for corrections, generates social clips automatically. _Free tier; Pro $30/month._
-- **[InVideo AI](https://invideo.io)** - Converts scripts, articles, or prompts into full videos with auto-selected stock footage, music, and transitions; 4,000+ templates for different platforms. _Free tier; Business $15/month._
-- **[Runway ML](https://runwayml.com)** - Video generation that's actually usable for product demos and ads.
-- **[Otter.ai](https://otter.ai)** - Meeting transcription that makes content repurposing trivial.
+- **[Descript](https://descript.com)** - Edit video by editing text—delete a word, clip gets cut; removes filler words in one click, clones voice for corrections, generates social clips automatically.
+- **[Otter.ai](https://otter.ai)** - Otter is the AI Meeting transcription that makes content repurposing trivial with transcription, automated summaries, AI Chat, and more.
+- **[Synthesia](https://synthesia.io)** - Creates videos with 230+ realistic AI avatars speaking 140+ languages—no camera or actors needed; used by 100K+ businesses for training and marketing.
+- **[InVideo AI](https://invideo.io)** - Converts scripts, articles, or prompts into full videos with auto-selected stock footage, music, and transitions; 4,000+ templates for different platforms.
+- **[OpusClip](https://opus.pro)** - Analyzes long podcasts/webinars and auto-generates 10+ short clips with captions, AI-selected hooks, and virality scores.
+- **[HeyGen](https://heygen.com)** - AI avatars for UGC-style marketing videos with voice cloning in 175+ languages and lip-sync translation; generates videos directly from product URLs.
+- **[Fliki](https://fliki.ai/)** - Text-to-video platform with 2,000+ AI voices in 80+ languages; turns scripts, blog posts, or URLs into videos with auto-matched stock footage and voiceovers. Strong for YouTube Shorts, TikTok, and repurposing written content.
 
 ---
 
-## Email Marketing
+## Email and Text Message Marketing
 
 - **[Klaviyo](https://klaviyo.com)** - Predictive analytics forecasts customer lifetime value and next purchase dates; Segments AI generates complex audiences from plain-language prompts. _Free up to 250 contacts; ecommerce-focused._
 - **[ActiveCampaign](https://activecampaign.com)** - Predictive Sending analyzes individual contact behavior to determine optimal send times per recipient—not just batch timing; 93.4% deliverability rate. _$15-79/month._
