@@ -19,11 +19,8 @@
 - [Competitive Intelligence & Market Research](#competitive-intelligence--market-research)
 - [Ad Creative & Copy](#ad-creative--copy)
 - [Landing Pages & Conversion Optimization](#landing-pages--conversion-optimization)
-- [AI-Powered CRM & Sales Enablement](#ai-powered-crm--sales-enablement)
 - [Workflow Automation](#workflow-automation)
 - [How to Use This List](#how-to-use-this-list)
-- [Notable Gaps](#notable-gaps)
-- [Emerging Tools to Watch](#emerging-tools-to-watch)
 - [Contributing](#contributing)
 
 ---
@@ -132,135 +129,139 @@
 
 ---
 
-## Email and Text Message Marketing
+## Email Marketing
 
-- **[Klaviyo](https://klaviyo.com)** - Predictive analytics forecasts customer lifetime value and next purchase dates; Segments AI generates complex audiences from plain-language prompts. _Free up to 250 contacts; ecommerce-focused._
-- **[ActiveCampaign](https://activecampaign.com)** - Predictive Sending analyzes individual contact behavior to determine optimal send times per recipient—not just batch timing; 93.4% deliverability rate. _$15-79/month._
-- **[Brevo](https://brevo.com)** - "Aura" AI assistant optimizes send time for each recipient, generates subject lines, and auto-segments contacts in real-time; great budget option. _Free plan (300 emails/day); Starter $9/month._
-- **[Mailchimp](https://mailchimp.com/solutions/ai-tools/)** - Send Time and Send Day Optimization analyze historical patterns; AI generates on-brand emails with pre-built flows that personalize beyond first names. _Free up to 500 contacts; $13+/month._
-- **[Omnisend](https://omnisend.com)** - Ecommerce-specific AI for predictive product recommendations, abandoned cart automation with ML-optimized timing, and cross-channel SMS from one platform. _Free tier; $16+/month._
-- **[Lavender.ai](https://lavender.ai)** - Sales email optimization. Shows you exactly why your email will fail before you send it.
-- **[Instantly.ai](https://instantly.ai)** - Cold email at scale with AI personalization that doesn't sound robotic.
+Most email platforms remain fundamentally traditional tools—list management, templates, automation workflows—with AI features layered on top. The AI additions (send-time optimization, subject line generation, predictive analytics) genuinely save time but rarely transform outcomes. Focus on choosing a platform that fits your business model first, then leverage whatever AI features come included.
+
+- **[Klaviyo](https://klaviyo.com)** - The ecommerce email standard, especially for Shopify. Predictive analytics forecast customer lifetime value and churn risk; Segments AI builds complex audiences from plain-language prompts. Premium pricing but deep integration with shopping platforms justifies it for serious stores.
+- **[Mailchimp](https://mailchimp.com/solutions/ai-tools/)** - Still the name everyone knows. Send Time Optimization analyzes historical patterns; AI generates on-brand emails with pre-built flows. Good all-rounder but increasingly expensive as you scale—many outgrow it.
+- **[ActiveCampaign](https://activecampaign.com)** - Automation powerhouse with Predictive Sending that analyzes individual contact behavior for optimal timing per recipient. 93.4% deliverability rate. Steeper learning curve but rewards the investment.
+- **[Kit](https://kit.com)** (formerly ConvertKit) - Creator-focused platform for newsletters, courses, and digital products. AI writing assistant for emails and landing pages; integrates with external AI tools. The go-to for solo creators and small teams who want simplicity.
+- **[Omnisend](https://omnisend.com)** - Ecommerce-specific with predictive product recommendations, abandoned cart automation, and cross-channel SMS from one dashboard. Strong Shopify/WooCommerce alternative to Klaviyo at lower price points.
+- **[Brevo](https://brevo.com)** - Budget-friendly option with "Aura" AI assistant for send-time optimization, subject lines, and auto-segmentation. Generous free tier makes it ideal for startups and small businesses testing email marketing.
+- **[MailerLite](https://mailerlite.com)** - Clean, affordable platform with AI writing assistant and smart sending. Notably supports Model Context Protocol (MCP) for integrating external AI tools like Claude or ChatGPT into campaign workflows—unusual for this price tier.
+- **[Lavender.ai](https://lavender.ai)** - Sales email coach, not a sending platform. Scores your draft and shows exactly why it might fail before you hit send. Integrates with Gmail/Outlook. For SDRs and sales teams writing cold outreach.
+- **[Instantly.ai](https://instantly.ai)** - Cold email infrastructure for outbound at scale. AI personalization that doesn't sound templated, plus deliverability tools to avoid spam folders. For agencies and sales teams doing volume prospecting.
 
 ---
 
 ## Customer Service & Chatbots
 
-- **[Intercom Fin](https://intercom.com/fin)** - Resolves 51% of conversations autonomously out-of-box (up to 80% with optimization); powered by Claude with 99.9% accuracy across chat, email, WhatsApp. _$0.99 per resolution; platform from $29/month._
-- **[Zendesk AI Agents](https://zendesk.com/service/ai/)** - Autonomous agents resolve up to 80% of support interactions; Agent Copilot proactively guides human agents. _$115+/agent/month; enterprise-grade._
-- **[Tidio Lyro](https://tidio.com/ai-agent/)** - SMB-focused AI agent handles 67% of repetitive queries at $0.50/conversation; reduces first response time by 75%—strictly uses knowledge base with no hallucinations. _Free 50 conversations; Plus from $29/month._
-- **[Freshdesk Freddy AI](https://freshworks.com/customer-service/support/)** - Intelligent ticket triaging, auto-responses, and intent detection; boosts agent productivity by up to 60% with setup in minutes. _Free plan; Growth $15/agent/month._
-- **[Gorgias](https://gorgias.com)** - E-commerce-specific helpdesk with deep Shopify/BigCommerce integration; AI automates up to 60% of support inquiries while agents can edit orders, process refunds, and manage subscriptions without leaving the platform. _From $60/month._
-- **[Ada](https://ada.cx)** - Enterprise chatbot that doesn't sound like a chatbot.
+- **[Zendesk AI Agents](https://zendesk.com/service/ai/)** - The 800-pound gorilla with 170,000+ customers and ~15% market share. Autonomous agents resolve up to 80% of interactions; Agent Copilot guides human agents with real-time suggestions. Enterprise-grade but increasingly expensive—many mid-market companies are exploring alternatives.
+- **[Fin](https://fin.ai/)** - Intercom's standalone AI agent, now available with any helpdesk (Zendesk, Salesforce, or Intercom's own). Resolves over a million tickets weekly; powered by proprietary "Fin AI Engine" with 40+ ML engineers behind it. Can integrate with your existing setup or pair with Intercom's helpdesk. Strong in SaaS and tech companies.
+- **[Freshdesk Freddy AI](https://freshworks.com/freshdesk/)** - Budget-friendly enterprise option with 50,000+ customers including HP and Honda. Intelligent ticket triaging, auto-responses, and intent detection; claims up to 60% productivity boost. Setup in minutes, not weeks. The value pick for growing companies.
+- **[Tidio Lyro](https://tidio.com/lyro/)** - SMB darling with 300,000+ businesses. Powered by Claude with strict knowledge-base grounding to prevent hallucinations. Free tier and visual flow builder make it accessible for small teams just starting with automation.
+- **[Gorgias](https://gorgias.com)** - E-commerce specialist with 15,000+ merchants (40% of Shopify's top 250). AI automates up to 60% of support while agents edit orders, process refunds, and manage subscriptions without leaving the platform. Usage-based pricing ($10/month for 50 tickets) fits seasonal businesses.
+- **[Ada](https://ada.cx)** - Enterprise unicorn ($1.2B valuation, $70M+ ARR) serving brands like Verizon, Canva, and Square. AI agents achieve up to 83% automated resolution across chat, voice, email, and social. No-code platform but enterprise pricing and sales process—this is for large-scale deployments, not SMBs.
 
 ---
 
 ## Analytics & Insights
 
-- **[ChatGPT Data Analyst](https://chat.openai.com)** - Upload your GA4/social data, ask questions in plain English. Shockingly effective.
-- **[Julius.ai](https://julius.ai)** - Specifically built for data analysis. Better than generic ChatGPT for complex datasets.
-- **[Mixpanel](https://mixpanel.com)** - Event-based product analytics with AI-powered insights; tracks user behavior across web and mobile with anomaly detection and funnel analysis that marketers can use without SQL. _Free tier (20M events); paid from $20/month._
-- **[Northbeam](https://northbeam.io)** - Multi-touch attribution using ML to track customer journeys across all channels; combines first-party pixel tracking with media mix modeling for real-time ROI visibility. _Enterprise-focused, $1,000+/month._
-- **[Amplitude](https://amplitude.com)** - Enterprise product analytics with predictive analytics and behavioral cohort analysis; uses ML to forecast conversion probabilities and identify at-risk users. _Free tier (10M events/month); SMB-friendly entry._
-- **[Tableau AI](https://tableau.com)** - Industry-leading visualization enhanced with generative AI that automatically surfaces trends, anomalies, and correlations from marketing data without data science expertise. _$15-75/user/month._
-- **[Power BI](https://microsoft.com/en-us/power-platform/products/power-bi)** - Microsoft's BI with embedded Azure ML models; unique "decomposition tree" automatically drills into data relationships for customer behavior modeling. _Very affordable at $10-20/user/month._
+- **[Claude](https://claude.ai)** - Upload spreadsheets, CSVs, or exports from GA4/social platforms and ask questions in plain English. Artifacts feature visualizes data as interactive charts. Strong at pattern recognition and explaining findings in context.
+- **[ChatGPT](https://chatgpt.com)** - Similar capability for conversational data analysis. Code Interpreter handles complex transformations; useful for quick exploration of marketing datasets without touching SQL.
+- **[Julius.ai](https://julius.ai)** - Purpose-built for data analysis rather than general chat. Handles larger datasets and more complex operations than general-purpose LLMs; generates Python/R code you can audit and reuse.
+- **[Mixpanel](https://mixpanel.com)** - Event-based product analytics with AI-powered insights; tracks user behavior across web and mobile with anomaly detection and funnel analysis that marketers can use without SQL.
+- **[Amplitude](https://amplitude.com)** - Enterprise product analytics with predictive analytics and behavioral cohort analysis; uses ML to forecast conversion probabilities and identify at-risk users.
+- **[Northbeam](https://northbeam.io)** - Multi-touch attribution using ML to track customer journeys across all channels; combines first-party pixel tracking with media mix modeling for real-time ROI visibility.
+- **[Tableau AI](https://tableau.com)** - Industry-leading visualization enhanced with generative AI that automatically surfaces trends, anomalies, and correlations from marketing data without data science expertise.
+- **[Power BI](https://microsoft.com/en-us/power-platform/products/power-bi)** - Microsoft's BI with embedded Azure ML models; Copilot generates reports from natural language prompts and "decomposition tree" automatically drills into data relationships.
 
 ---
 
 ## Competitive Intelligence & Market Research
 
-- **[Brandwatch](https://brandwatch.com)** - Enterprise social listening monitoring 100M+ sources with advanced AI sentiment analysis (multilingual deep learning) and anomaly detection; identifies trends before they peak. _Enterprise-only, contact for pricing._
-- **[Similarweb](https://similarweb.com)** - Granular website traffic analysis and competitive benchmarking across 100M+ websites in 190 countries; AI Traffic add-on tracks chatbot-driven traffic. _$125-433/month; 7-day trial available._
-- **[Crayon](https://crayon.co)** - Tracks competitors' complete digital footprint—website changes, pricing, product launches, reviews, and ad strategies; AI automates insight prioritization from millions of data points. _Enterprise-focused, highest tier pricing._
+The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but expensive. For SMBs, consider the budget-friendly alternatives listed after, or start with free tiers where available.
+
+**Enterprise Tools:**
+
+- **[Similarweb](https://similarweb.com)** - Granular website traffic analysis and competitive benchmarking across 100M+ websites in 190 countries; AI Traffic add-on tracks chatbot-driven traffic. Free tier available with limited data.
+- **[Brandwatch](https://brandwatch.com)** - Enterprise social listening monitoring 100M+ sources with advanced AI sentiment analysis and anomaly detection; identifies trends before they peak.
+- **[Crayon](https://crayon.co)** - Tracks competitors' complete digital footprint—website changes, pricing, product launches, reviews, and ad strategies; AI automates insight prioritization from millions of data points.
+
+**SMB-Friendly Alternatives:**
+
+- **[SpyFu](https://spyfu.com)** - Affordable SEO/PPC competitor research; see competitors' keywords, ad history, and ranking changes. Great for understanding what's working in paid search.
+- **[Visualping](https://visualping.io)** - Website change monitoring with AI-generated summaries. Get alerts when competitors update pricing, messaging, or product pages. Generous free tier.
+- **[Google Alerts](https://google.com/alerts)** - Free and dead simple. Set up alerts for competitor names, industry keywords, or executive mentions. Limited but costs nothing.
+- **[Awario](https://awario.com)** - Budget social listening tool tracking brand and competitor mentions across social, blogs, and forums. Good entry point before graduating to Brandwatch.
 
 ---
 
 ## Ad Creative & Copy
 
-- **[AdCreative.ai](https://adcreative.ai)** - Generates hundreds of ad variations with "Creative Scoring" that predicts performance before publishing; connects directly to Facebook/Google for instant deployment. _$29-149/month; 7-day trial._
+- **[AdCreative.ai](https://adcreative.ai)** - Generates hundreds of ad variations with "Creative Scoring" that predicts performance before publishing; connects directly to Facebook/Google for instant deployment.
 - **[Creatify](https://creatify.ai)** - Generates UGC-style video ads from product URLs using 1000+ lifelike AI avatars; AdMax feature finds competitor trends and runs structured A/B tests automatically.
-- **[Pencil](https://trypencil.com)** - Enterprise-grade GenAI ad creation that predicts performance and supplies language/audience variations; integrates with Adobe Firefly and Google Veo 2 for brand-safe creative. _Enterprise pricing, contact for demo._
+- **[Pencil](https://trypencil.com)** - Enterprise-grade GenAI ad creation that predicts performance and supplies language/audience variations; integrates with Adobe Firefly and Google Veo 2 for brand-safe creative.
 
 ---
 
 ## Landing Pages & Conversion Optimization
 
-- **[Unbounce](https://unbounce.com)** - "Smart Traffic" AI automatically routes visitors to page variants most likely to convert—eliminates traditional A/B testing delays; Dynamic Text Replacement matches headlines to ad keywords. _$99-249/month; AI features on higher tiers._
-- **[Instapage](https://instapage.com)** - Enterprise landing pages with AI Experiments using ML to auto-route traffic to best performers; AdMap visualizes ad-to-page connections for message match. _$79-239/month; 14-day trial._
-- **[Landingi](https://landingi.com)** - Built-in AI text generator, SEO meta generator, and image background removal without leaving the editor; EventTracker monitors scroll depth and clicks for optimization. _Best value at $24-57/month._
-- **[Framer](https://framer.com)** - Design-first no-code website builder with AI page generation, automatic translations, and smooth animations; loved by designers who want full creative control without coding. _Free tier; Pro $30/month._
+**A/B Testing & Experimentation Platforms:**
 
----
+- **[Optimizely](https://optimizely.com)** - The enterprise standard for experimentation with 37% A/B testing market share. Server-side testing, feature flags, and proprietary Stats Engine for faster statistical significance. Now includes CMS and content tools after acquiring multiple companies. Complex but powerful for teams running hundreds of tests.
+- **[VWO](https://vwo.com)** - Full conversion optimization suite combining A/B testing with heatmaps, session recordings, and surveys in one platform. More accessible than Optimizely with visual editor and transparent pricing. Strong for mid-market companies wanting experimentation without a data engineering team.
 
-## AI-Powered CRM & Sales Enablement
+**Landing Page Builders:**
 
-- **[Gong](https://gong.io)** - Revenue intelligence platform that records, transcribes, and analyzes sales calls to identify what top performers do differently; surfaces deal risks and coaching opportunities automatically. _Enterprise pricing, $10,000+/month for teams._
-- **[HubSpot AI](https://hubspot.com)** - AI features embedded throughout HubSpot CRM including predictive lead scoring, content generation, and automated task creation; practical for teams already in the HubSpot ecosystem. _Included in Pro plans._
+- **[Unbounce](https://unbounce.com)** - The original landing page builder and still a market leader. "Smart Traffic" AI routes visitors to variants most likely to convert; Dynamic Text Replacement matches headlines to ad keywords. Strong for PPC marketers who need fast iteration.
+- **[Leadpages](https://leadpages.com)** - Most affordable option with unlimited pages on all plans. Less flexible editor than Unbounce but easier for beginners; includes pop-ups, alert bars, and built-in checkout via Stripe. Good for small businesses and solopreneurs.
+- **[Instapage](https://instapage.com)** - Enterprise-focused with pixel-perfect editor, heatmaps, and real-time team collaboration. AdMap visualizes ad-to-page connections for message match. Powerful but premium pricing reflects it.
+- **[ClickFunnels](https://clickfunnels.com)** - Sales funnel builder rather than pure landing pages. Popular with info-product sellers and e-commerce for building complete purchase journeys. Has evolved into an all-in-one website platform.
+- **[Landingi](https://landingi.com)** - Budget-friendly European alternative with AI text generator, SEO tools, and EventTracker for scroll/click analytics. Good value for teams needing lots of pages without enterprise budgets.
+- **[Framer](https://framer.com)** - Design-first website builder with AI page generation and smooth animations. Loved by designers who want full creative control; less focused on traditional conversion optimization features.
 
 ---
 
 ## Workflow Automation
 
-- **[Make.com](https://make.com/en/ai-automation)** - Visual workflow automation with 400+ AI app integrations and AI agents; connects CRM, email, and social tools with AI decision logic. _Free tier; Pro from $9/month._
-- **[Gumloop](https://gumloop.com)** - No-code AI workflow builder with visual drag-and-drop canvas, built-in premium LLM access (GPT-4, Claude); used by Webflow, Instacart, Shopify teams. _Free tier; paid from $97/month._
-- **[Zapier](https://zapier.com)** - Most established automation platform with 6,000+ app integrations; AI power-ups for intelligent workflows connecting CRM to outreach without developer help. _Free tier; Professional $19.99/month._
-- **[n8n](https://n8n.io)** - Open source automation. Best for developers who want control over AI integrations.
+- **[n8n](https://n8n.io)** - The darling of AI builders. Open-source, self-hostable automation that's become the go-to platform for teams building AI agent workflows. 400+ integrations plus direct connections to OpenAI/Claude/Gemini/local LLMs via Ollama, and the ability to write custom JavaScript/Python at any step. Community has built 7,000+ workflow templates including 4,700+ AI-specific ones.
+- **[Make.com](https://make.com/en/ai-automation)** - Visual workflow automation with 400+ AI app integrations, native AI modules for prompting multiple LLMs, and AI agents (in beta). Good middle ground: more powerful than Zapier, more accessible than n8n. Strong for marketing teams who need AI without code.
+- **[Zapier](https://zapier.com)** - The household name with 8,000+ app integrations and the lowest learning curve. AI Actions let you add GPT-style capabilities to any workflow. Best for non-technical teams who want reliable automation fast. Less flexible for complex AI logic but unbeatable for "set
 
 ### For Developers Building Custom Tools
 
-- **[Anthropic Claude API](https://anthropic.com/api)** - Direct API access for building custom marketing tools.
-- **[OpenAI API](https://platform.openai.com)** - Same as above. Choose based on use case.
-- **[Agno](https://github.com/agno-agi/agno)** - Lightweight framework for building AI agents. Better than LangChain for most use cases.
-
-**Note:** Avoid LangChain unless you have specific needs. Most marketing automation doesn't need that complexity.
+- **[Anthropic Claude API](https://anthropic.com/api)** - Direct API access for building custom marketing tools with Claude models.
+- **[OpenAI API](https://platform.openai.com)** - Same capability with GPT models. Choose based on your use case and preference.
+- **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** - Lightweight Python framework for multi-agent workflows. Built-in primitives for agents, handoffs, guardrails, and sessions. Production-ready evolution of the experimental Swarm project; supports 100+ LLMs via LiteLLM.
+- **[Agno](https://github.com/agno-agi/agno)** - Build, run and manage secure multi-agent systems in your cloud with Agno's AgentOS. Built for speed, scale, and developer experience.
+- **[CrewAI](https://github.com/crewAIInc/crewAI)** - Python framework for orchestrating role-based AI agent teams. Agents collaborate like human teams with defined roles, goals, and delegation. Over 100,000 developers certified; works with any LLM.
 
 ---
 
 ## How to Use This List
 
-### Understanding the Zones
+### Before You Buy Anything
 
-**🟢 Green Zone Tools** - Use freely, output is easy to verify  
-Examples: Content drafts, social media posts, email subject lines
+Most companies buy AI tools backwards—see a demo, get excited, swipe the card, then wonder why it's not moving the needle.
 
-**🟡 Yellow Zone Tools** - Use with guardrails, verification takes real work  
-Examples: SEO content, ad copy, data analysis
+![Should You Buy This AI Tool?](assets/buy_the_ai_tool.png)
 
-**🔴 Red Zone Tools** - Dangerous without expertise, proceed with caution  
-Examples: Customer service chatbots, automated responses to complaints
+**The decision tree:**
 
-Read more about the zone framework in [this article](https://maxbraglia.substack.com/p/the-ai-hallucination-debate-is-missing-the-point).
+1. **Can you name the specific problem?** Not "we need better efficiency." What exactly is broken? If you can't articulate it clearly, don't buy yet.
+
+2. **Can you quantify the cost?** How much is this problem costing you in time, money, or opportunity? No number = no business case.
+
+3. **Does this tool solve THAT problem?** Not "could it maybe help with..." If it doesn't directly address your quantified problem, keep looking.
+
+Only when you hit three yeses do you run a small pilot.
+
+### The Verification Paradox
+
+Every AI tool hallucinates. The question isn't whether—it's whether you can catch it.
+
+The safer tasks are ones where verification is easy: drafting social posts, brainstorming headlines, summarizing content you've already read. The dangerous tasks are ones where checking the output requires the same expertise as doing it yourself—or where you won't know it's wrong until damage is done.
+
+Before adopting any tool on this list, ask: _How hard is it to verify this output?_ If you can't check it, you can't use it safely.
+
+Read more: [The AI Hallucination Debate Is Missing the Point](https://maxbraglia.substack.com/p/the-ai-hallucination-debate-is-missing-the-point)
 
 ### General Guidelines
 
-1. **Start with prompts** before buying tools
-2. **Verify everything** - AI is a draft generator, not a finished product
-3. **Build systems** - One-off AI use rarely creates value. Repeatable workflows do.
-4. **Match tools to zones** - Don't use AI for tasks you can't verify
-
----
-
-## Notable Gaps
-
-Marketing functions where good AI tools are still lacking or unreliable:
-
-- **Influencer marketing** - Most tools offer basic discovery but lack sophisticated AI matching or ROI prediction that actually works
-- **Podcast marketing** - Beyond basic transcription and clip generation, few tools handle podcast-specific distribution and growth
-- **B2B account-based marketing** - AI tools struggle with complex multi-stakeholder attribution
-- **Local SEO** - AI tools for managing multi-location businesses remain primitive
-- **Brand voice consistency** - Despite marketing claims, most tools still produce inconsistent output requiring significant human editing
-
----
-
-## Emerging Tools to Watch
-
-Newer tools showing promise but needing more validation:
-
-- **[Peec AI](https://peec.ai)** - Tracks AI visibility metrics (position, sentiment, visibility) across ChatGPT, Gemini, Claude, Perplexity with competitive benchmarking—still maturing but addresses growing need. _~€89-199/month._
-- **[Rankscale AI](https://rankscale.ai)** - Daily AI visibility tracking with white-label agency reporting; currently in beta with founder-led rapid development. _From $20/month._
-- **[Clay](https://clay.com)** - AI-driven centralized prospecting connecting 100+ data sources for GTM workflows; extremely highly rated (4.9/5 on G2) but newer to market.
-- **[Distribution AI](https://distribution.ai)** - "Set it and forget it" content repurposing engine that transforms source material into dozens of platform-optimized assets; promising for content teams but needs broader validation.
-- **[Writesonic GEO Suite](https://writesonic.com)** - Tracks brand visibility across AI platforms and provides actionable recommendations for improving AI citations; transitioning from pure content generation to AEO.
+- **Start with prompts before buying tools.** A well-crafted prompt to Claude or ChatGPT often eliminates the need for specialized software.
+- **Build systems, not one-offs.** Single AI experiments rarely create value. Repeatable workflows do.
 
 ---
 
@@ -271,7 +272,6 @@ Found a tool that actually works? Submit a PR with:
 - Tool name & link
 - What problem it solves (be specific)
 - When to use it / when NOT to use it
-- Which zone it belongs in (Green/Yellow/Red)
 
 ### Contribution Guidelines
 
@@ -282,7 +282,6 @@ Tools must:
 - Solve real marketing problems
 - Be actively maintained
 - Have been tested by you or verified by multiple users
-- Not just be ChatGPT with a wrapper (unless the wrapper adds genuine value)
 
 **We will remove:**
 
