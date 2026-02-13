@@ -169,6 +169,7 @@ Most email platforms remain fundamentally traditional tools—list management, t
 - **[Northbeam](https://northbeam.io)** - Multi-touch attribution using ML to track customer journeys across all channels; combines first-party pixel tracking with media mix modeling for real-time ROI visibility.
 - **[Tableau AI](https://tableau.com)** - Industry-leading visualization enhanced with generative AI that automatically surfaces trends, anomalies, and correlations from marketing data without data science expertise.
 - **[Power BI](https://microsoft.com/en-us/power-platform/products/power-bi)** - Microsoft's BI with embedded Azure ML models; Copilot generates reports from natural language prompts and "decomposition tree" automatically drills into data relationships.
+- **[Querri](https://querri.com)** - End-to-end conversational analytics platform that generates and stores structured analysis workflows (Python-backed), enabling rerunnable, automated marketing reporting beyond static dashboards or one-off AI answers.
 
 ---
 
