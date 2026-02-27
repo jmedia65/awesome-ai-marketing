@@ -196,6 +196,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[AdCreative.ai](https://adcreative.ai)** - Generates hundreds of ad variations with "Creative Scoring" that predicts performance before publishing; connects directly to Facebook/Google for instant deployment.
 - **[Creatify](https://creatify.ai)** - Generates UGC-style video ads from product URLs using 1000+ lifelike AI avatars; AdMax feature finds competitor trends and runs structured A/B tests automatically.
 - **[Pencil](https://trypencil.com)** - Enterprise-grade GenAI ad creation that predicts performance and supplies language/audience variations; integrates with Adobe Firefly and Google Veo 2 for brand-safe creative.
+- **[Creative Director Skill](https://github.com/smixs/creative-director-skill)** - Open-source AI creative director skill for Claude/GPT/Gemini. 20+ ideation methodologies (SIT, TRIZ, Bisociation, SCAMPER, Synectics), 3-axis evaluation calibrated against Cannes/D&AD, recursive refinement. Full creative cycle: brief → insight → ideation → evaluation → presentation.
 
 ---
 
