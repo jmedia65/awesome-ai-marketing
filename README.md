@@ -230,6 +230,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** - Lightweight Python framework for multi-agent workflows. Built-in primitives for agents, handoffs, guardrails, and sessions. Production-ready evolution of the experimental Swarm project; supports 100+ LLMs via LiteLLM.
 - **[Agno](https://github.com/agno-agi/agno)** - Build, run and manage secure multi-agent systems in your cloud with Agno's AgentOS. Built for speed, scale, and developer experience.
 - **[CrewAI](https://github.com/crewAIInc/crewAI)** - Python framework for orchestrating role-based AI agent teams. Agents collaborate like human teams with defined roles, goals, and delegation. Over 100,000 developers certified; works with any LLM.
+- **[Hanzi](https://github.com/hanzili/hanzi-in-chrome)** - Open-source AI agent for browser-based marketing automation. Built-in skills for LinkedIn prospecting and social media posting from your real signed-in browser. Works with Claude Code, Cursor, and Codex via MCP. Setup: `npx hanzi-in-chrome setup`.
 
 ---
 
