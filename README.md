@@ -90,6 +90,7 @@
 - **[Surfer SEO](https://surferseo.com)** - On-page optimization platform that analyzes top-ranking competitors; AI-powered content editor scores your drafts against data-driven recommendations for keywords, structure, and length.
 - **[Clearscope](https://clearscope.io)** - Content optimization tool with AI-powered grading; scores content in real-time with specific term recommendations. Integrates with Google Docs and WordPress. Enterprise-focused.
 - **[Ubersuggest](https://neilpatel.com/ubersuggest/)** - Budget-friendly SEO suite for keyword research, site audits, and competitor analysis; AI Writing Assistant generates SEO-optimized content ideas. Ideal for beginners and small businesses with generous free tier.
+- [Cited By AI®](https://citedbyai.info) - Block-level AI citation auditing using the Citation Probability Score® (CPS®) framework. Scores content across 5 pillars to predict how likely each page section is to be cited by ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews. Free CPS® Lite checker via MCP — no sign-up required.
 
 ### AI Search Optimization (AEO)
 
