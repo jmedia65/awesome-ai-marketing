@@ -95,6 +95,7 @@
 
 - **[SE Ranking AI Overviews Tracker](https://seranking.com/ai-overviews-tracker.html)** - Tracks your website's visibility specifically within Google AI Overviews—shows which keywords trigger AI answers and which sources get cited.
 - **[Otterly.AI](https://otterly.ai)** - Real-time AI search monitoring with daily citation updates across ChatGPT, Perplexity, and Google AI Overviews; includes Slack alerts when citations appear or disappear.
+- **[GEOScore AI](https://geoscoreai.com)** - AI search optimization scanner that analyzes website readiness for ChatGPT, Perplexity, and other AI search engines. Free scan with 9-point diagnostic across 50+ pages covering llms.txt, schema markup, robots.txt, and crawl access.
 
 ---
 
