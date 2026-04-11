@@ -110,6 +110,7 @@
 - **[Flick](https://flick.social)** - AI copilot "Iris" brainstorms post ideas in stages—starts with concepts, develops full posts, then repurposes for each channel with hashtag generation.
 - **[Ocoya](https://ocoya.com)** - All-in-one dashboard writes captions, picks hashtags, and creates post graphics together; strong ecommerce integrations for product-focused posting.
 - **[Expandi](https://expandi.io)** - LinkedIn automation for outreach. Use carefully to avoid being flagged.
+- **[BulkPublish](https://www.bulkpublish.com)** - Open-API social media scheduling for 11 platforms (Facebook, Instagram, X, TikTok, YouTube, Threads, Bluesky, Pinterest, Google Business, LinkedIn, Mastodon). REST API, Python & Node.js SDKs, MCP server with 29 tools, and native integrations with n8n, Zapier, Make, and IFTTT. Free tier includes API access.
 
 ---
 
