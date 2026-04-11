@@ -90,6 +90,7 @@
 - **[Surfer SEO](https://surferseo.com)** - On-page optimization platform that analyzes top-ranking competitors; AI-powered content editor scores your drafts against data-driven recommendations for keywords, structure, and length.
 - **[Clearscope](https://clearscope.io)** - Content optimization tool with AI-powered grading; scores content in real-time with specific term recommendations. Integrates with Google Docs and WordPress. Enterprise-focused.
 - **[Ubersuggest](https://neilpatel.com/ubersuggest/)** - Budget-friendly SEO suite for keyword research, site audits, and competitor analysis; AI Writing Assistant generates SEO-optimized content ideas. Ideal for beginners and small businesses with generous free tier.
+- **[toprank](https://github.com/nowork-studio/toprank)** - Open-source (MIT) Claude Code plugin with 9 SEO and Google Ads skills. Connects to Google Search Console, PageSpeed Insights, and Google Ads API; rewrites meta tags, generates JSON-LD schema markup, and ships fixes directly to WordPress/Strapi/Contentful/Ghost. Unlike dashboard-based tools here, it uses an AI agent to actually implement changes. Free, 107 stars.
 
 ### AI Search Optimization (AEO)
 
