@@ -196,6 +196,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[AdCreative.ai](https://adcreative.ai)** - Generates hundreds of ad variations with "Creative Scoring" that predicts performance before publishing; connects directly to Facebook/Google for instant deployment.
 - **[Creatify](https://creatify.ai)** - Generates UGC-style video ads from product URLs using 1000+ lifelike AI avatars; AdMax feature finds competitor trends and runs structured A/B tests automatically.
 - **[Pencil](https://trypencil.com)** - Enterprise-grade GenAI ad creation that predicts performance and supplies language/audience variations; integrates with Adobe Firefly and Google Veo 2 for brand-safe creative.
+- **[AdDogs](https://www.addogs.ai)** - Clones any winning ad design, swaps in your product photo and brand identity, and outputs professional ads in 10 seconds. Browse 14,000+ ad examples from real campaigns; exports in 3 formats for Instagram, TikTok, Facebook, and Google.
 
 ---
 
