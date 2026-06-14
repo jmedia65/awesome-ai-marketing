@@ -129,6 +129,7 @@
 - **[OpusClip](https://opus.pro)** - Analyzes long podcasts/webinars and auto-generates 10+ short clips with captions, AI-selected hooks, and virality scores.
 - **[HeyGen](https://heygen.com)** - AI avatars for UGC-style marketing videos with voice cloning in 175+ languages and lip-sync translation; generates videos directly from product URLs.
 - **[Fliki](https://fliki.ai/)** - Text-to-video platform with 2,000+ AI voices in 80+ languages; turns scripts, blog posts, or URLs into videos with auto-matched stock footage and voiceovers. Strong for YouTube Shorts, TikTok, and repurposing written content.
+- **[VideoOverlayKit](https://github.com/alichherawalla/video-overlay-kit)** - Open-source MCP server that renders 4-6s animated b-roll overlay videos (mp4) for short-form social. Paste your script into Claude Code / Cursor / Codex, the model writes the scene spec and renders the mp4. Built on Remotion + Tabler + Lottie. Free, MIT, local, zero per-render cost.
 
 ---
 
