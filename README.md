@@ -95,6 +95,7 @@
 
 - **[SE Ranking AI Overviews Tracker](https://seranking.com/ai-overviews-tracker.html)** - Tracks your website's visibility specifically within Google AI Overviews—shows which keywords trigger AI answers and which sources get cited.
 - **[Otterly.AI](https://otterly.ai)** - Real-time AI search monitoring with daily citation updates across ChatGPT, Perplexity, and Google AI Overviews; includes Slack alerts when citations appear or disappear.
+- **[Revolead](https://revolead.ai)** - Done-for-you AEO/GEO and B2B lead generation; maps buyer-intent prompts, builds the pages that win answers in ChatGPT, Perplexity, Gemini and Google AI Overviews, and ties AI visibility to qualified enquiries.
 
 ---
 
