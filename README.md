@@ -230,6 +230,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** - Lightweight Python framework for multi-agent workflows. Built-in primitives for agents, handoffs, guardrails, and sessions. Production-ready evolution of the experimental Swarm project; supports 100+ LLMs via LiteLLM.
 - **[Agno](https://github.com/agno-agi/agno)** - Build, run and manage secure multi-agent systems in your cloud with Agno's AgentOS. Built for speed, scale, and developer experience.
 - **[CrewAI](https://github.com/crewAIInc/crewAI)** - Python framework for orchestrating role-based AI agent teams. Agents collaborate like human teams with defined roles, goals, and delegation. Over 100,000 developers certified; works with any LLM.
+- **[NotFair](https://github.com/nowork-studio/NotFair)** - Open-source Claude Code skills (~2.9k stars) for [SEO](https://github.com/nowork-studio/NotFair/tree/main/seo), [Google Ads](https://github.com/nowork-studio/NotFair/tree/main/google-ads), and [Meta Ads](https://github.com/nowork-studio/NotFair/tree/main/meta-ads). Connects to live account data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. Use it if you already use Claude Code and want agent-driven marketing workflows; skip it if you need a standalone tool with a GUI.
 
 ---
 
