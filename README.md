@@ -205,6 +205,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 
 - **[Optimizely](https://optimizely.com)** - The enterprise standard for experimentation with 37% A/B testing market share. Server-side testing, feature flags, and proprietary Stats Engine for faster statistical significance. Now includes CMS and content tools after acquiring multiple companies. Complex but powerful for teams running hundreds of tests.
 - **[VWO](https://vwo.com)** - Full conversion optimization suite combining A/B testing with heatmaps, session recordings, and surveys in one platform. More accessible than Optimizely with visual editor and transparent pricing. Strong for mid-market companies wanting experimentation without a data engineering team.
+- - **[Autoresearch Playbook](https://autoresearchplaybook.com)** - Open-source autoresearch optimization framework for marketing copy. 12 fill-in-the-blank `.md` templates implement propose → evaluate → keep/revert → repeat loops for headlines, landing pages, cold emails, and ad copy. Runs locally via Ollama ($0 compute) or Claude hybrid (~80% cheaper than full API). Includes hard `max_cost_usd` stop, model-selection matrix, and scoring rubrics. Free 12-point readiness assessment at `/assessment`.
 
 **Landing Page Builders:**
 
