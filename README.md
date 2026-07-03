@@ -39,6 +39,7 @@
 - [Semrush AI Prompt Library for Content Marketers](https://www.semrush.com/content-hub/ai-prompt-library/) - 600+ tested prompts organized by category (content ideation, SEO, audience research) with placeholder fields for immediate use
 - [HubSpot AI Prompt Libraries](https://offers.hubspot.com/ai-prompt-library) - A curated collection of AI prompts designed to unlock unconventional marketing strategies
 - [AI Prompt Engineering for Digital Marketers](https://maxbraglia.substack.com/p/the-complete-prompt-engineering-toolkit) - A practical guide to getting better results from AI tools like ChatGPT, Claude, and Gemini.
+- [Growth Marketing OS](https://github.com/growthack88/growth-marketing-os) - 60+ original marketing assets in structured, machine-readable format: battle-tested prompts (paid ads, SEO/GEO, email, CRO), Claude skills, agent system prompts, and benchmark files where every figure cites a named study. Bilingual English + Arabic, with MENA/COD e-commerce coverage no other collection has.
 
 ### When to Use Prompts vs Tools
 
