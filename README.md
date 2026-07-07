@@ -95,6 +95,7 @@
 
 - **[SE Ranking AI Overviews Tracker](https://seranking.com/ai-overviews-tracker.html)** - Tracks your website's visibility specifically within Google AI Overviews—shows which keywords trigger AI answers and which sources get cited.
 - **[Otterly.AI](https://otterly.ai)** - Real-time AI search monitoring with daily citation updates across ChatGPT, Perplexity, and Google AI Overviews; includes Slack alerts when citations appear or disappear.
+- **[AnswerLens](https://app.sfdj.net/)** - Audits a B2B SaaS site's public evidence layer before AI-search monitoring: pricing, proof, docs, comparison, trust, schema, and `llms.txt` gaps. Use it when you need a source-backed fix plan; not when you need live ranking, citation, or brand-visibility tracking.
 
 ---
 
