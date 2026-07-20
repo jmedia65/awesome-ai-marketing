@@ -90,6 +90,7 @@
 - **[Surfer SEO](https://surferseo.com)** - On-page optimization platform that analyzes top-ranking competitors; AI-powered content editor scores your drafts against data-driven recommendations for keywords, structure, and length.
 - **[Clearscope](https://clearscope.io)** - Content optimization tool with AI-powered grading; scores content in real-time with specific term recommendations. Integrates with Google Docs and WordPress. Enterprise-focused.
 - **[Ubersuggest](https://neilpatel.com/ubersuggest/)** - Budget-friendly SEO suite for keyword research, site audits, and competitor analysis; AI Writing Assistant generates SEO-optimized content ideas. Ideal for beginners and small businesses with generous free tier.
+- **[Screpy](https://screpy.com/)** - AI SEO platform for technical audits, keyword research, rank tracking, Core Web Vitals, uptime monitoring, and article drafts.
 
 ### AI Search Optimization (AEO)
 
