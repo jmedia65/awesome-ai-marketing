@@ -145,6 +145,7 @@ Most email platforms remain fundamentally traditional tools—list management, t
 - **[MailerLite](https://mailerlite.com)** - Clean, affordable platform with AI writing assistant and smart sending. Notably supports Model Context Protocol (MCP) for integrating external AI tools like Claude or ChatGPT into campaign workflows—unusual for this price tier.
 - **[Lavender.ai](https://lavender.ai)** - Sales email coach, not a sending platform. Scores your draft and shows exactly why it might fail before you hit send. Integrates with Gmail/Outlook. For SDRs and sales teams writing cold outreach.
 - **[Instantly.ai](https://instantly.ai)** - Cold email infrastructure for outbound at scale. AI personalization that doesn't sound templated, plus deliverability tools to avoid spam folders. For agencies and sales teams doing volume prospecting.
+- **[Warmbly](https://warmbly.com)** - AI-native cold outreach platform with mailbox warmup, agentic automations, self-hosting, and deliverability controls.
 
 ---
 
