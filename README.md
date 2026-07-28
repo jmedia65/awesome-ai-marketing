@@ -171,6 +171,7 @@ Most email platforms remain fundamentally traditional tools—list management, t
 - **[Power BI](https://microsoft.com/en-us/power-platform/products/power-bi)** - Microsoft's BI with embedded Azure ML models; Copilot generates reports from natural language prompts and "decomposition tree" automatically drills into data relationships.
 
 ---
+- [Trends MCP](https://trendsmcp.ai) - AI-ready trend intelligence MCP/API across 25+ platforms.
 
 ## Competitive Intelligence & Market Research
 
