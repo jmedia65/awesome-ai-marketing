@@ -310,3 +310,4 @@ Connect: [LinkedIn](https://linkedin.com/in/maxbraglia) | [Twitter/X](https://x.
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
+- [Trends MCP](https://github.com/trendsmcp-ai/Trends-MCP) - Live trend data across 25+ platforms (Google, YouTube, TikTok, Reddit, Amazon, news sentiment, app downloads, more). MCP server + REST API. [Free tier](https://trendsmcp.ai) (100 req/mo).
