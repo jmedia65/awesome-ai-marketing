@@ -196,6 +196,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[AdCreative.ai](https://adcreative.ai)** - Generates hundreds of ad variations with "Creative Scoring" that predicts performance before publishing; connects directly to Facebook/Google for instant deployment.
 - **[Creatify](https://creatify.ai)** - Generates UGC-style video ads from product URLs using 1000+ lifelike AI avatars; AdMax feature finds competitor trends and runs structured A/B tests automatically.
 - **[Pencil](https://trypencil.com)** - Enterprise-grade GenAI ad creation that predicts performance and supplies language/audience variations; integrates with Adobe Firefly and Google Veo 2 for brand-safe creative.
+- **[SuperCMO Skills](https://github.com/SupercmoHQ/superCMO-skills)** - Open-source agent skills + a local MCP server that turn a product photo and a brief into finished ad creative — UGC videos, ad videos, product photography, and image ads. Casts AI actors, picks the best image/video models, and edits any-length clips with consistent actor and product; also researches competitor ads. Runs in Claude Code, Cursor, Codex, or any Agent Skills host; BYO or managed keys. Apache-2.0.
 
 ---
 
