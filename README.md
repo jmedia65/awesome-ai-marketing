@@ -129,6 +129,7 @@
 - **[OpusClip](https://opus.pro)** - Analyzes long podcasts/webinars and auto-generates 10+ short clips with captions, AI-selected hooks, and virality scores.
 - **[HeyGen](https://heygen.com)** - AI avatars for UGC-style marketing videos with voice cloning in 175+ languages and lip-sync translation; generates videos directly from product URLs.
 - **[Fliki](https://fliki.ai/)** - Text-to-video platform with 2,000+ AI voices in 80+ languages; turns scripts, blog posts, or URLs into videos with auto-matched stock footage and voiceovers. Strong for YouTube Shorts, TikTok, and repurposing written content.
+- **[videos.social](https://videos.social/?utm_source=jmedia-awesome-ai-marketing&utm_medium=directory&utm_campaign=listing-wave-d)** - Turns blogs, PDFs, and prompts into editable faceless videos (script, scenes, voiceover) rather than a locked regenerate loop. Start free — 1 render included. Packs from $10. 1 credit = 1 render.
 
 ---
 
