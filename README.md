@@ -188,6 +188,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[Visualping](https://visualping.io)** - Website change monitoring with AI-generated summaries. Get alerts when competitors update pricing, messaging, or product pages. Generous free tier.
 - **[Google Alerts](https://google.com/alerts)** - Free and dead simple. Set up alerts for competitor names, industry keywords, or executive mentions. Limited but costs nothing.
 - **[Awario](https://awario.com)** - Budget social listening tool tracking brand and competitor mentions across social, blogs, and forums. Good entry point before graduating to Brandwatch.
+- **[AdMapix](https://www.admapix.com)** - Search competitor ad creative across markets, analyze hooks and CTAs, and combine creative intelligence with app rankings and market research. Best when you need cross-platform creative context; not a replacement for first-party performance analytics.
 
 ---
 
