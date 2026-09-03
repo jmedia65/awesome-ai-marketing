@@ -119,6 +119,7 @@
 
 - **[Fal](https://fal.ai/)** - A developer-focused generative media platform: Access the world's top image, video, and audio generation models in one hub. Build and fine-tune with serverless GPUs and on-demand clusters. Currently my go-to for media content creation.
 - **[Canva Magic Studio](https://canva.com/magic/)** - Canva Magic Studio is Canva's suite of AI tools for generating designs from text prompts, creating images, editing photos (e.g., Magic Grab, Expand), and transforming content (e.g., Magic Switch for resizing, translating, or reformatting).
+- **[Lunalisa](https://luna-lisa.art)** - Solves the problem of producing product photos, marketing posters, and white-background listing images without a photo studio: text or reference-image prompts across 13 image models, then extend approved stills into video with 22 video models. Best for ecommerce sellers and creative teams; less useful if you only need generic stock imagery rather than product-specific shots.
 
 ### Video Content
 
