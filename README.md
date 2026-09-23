@@ -102,6 +102,7 @@
 
 - **[Buffer](https://buffer.com)** - AI Assistant detects which platform you're writing for and adapts output accordingly—turns one idea into 10 tailored posts with proper formatting and tone.
 - **[Later](https://later.com)** - Visual-first scheduling optimized for Instagram grids and visual feeds; AI suggests best times to post and hashtags based on your audience engagement patterns.
+- **[SocialRoster](https://socialroster.dev)** - Calendar scheduling and bulk upload for TikTok, Instagram, YouTube, and Facebook—built for posting short-form and long-form without juggling native apps.
 - **[Typefully](https://typefully.com)** - Minimalist writing and scheduling for X, LinkedIn, Threads, and Bluesky; distraction-free editor excels at crafting threads with AI suggestions to sharpen your copy. Popular with creators and founders.
 - **[ContentStudio](https://contentstudio.io)** - Tracks trending content across topics with sentiment analysis and suggests sharing opportunities; Chat AI assistant with prompt library adds real value.
 - **[Taplio](https://taplio.com)** - LinkedIn specifically. Content creation + engagement. Actually generates B2B leads.
