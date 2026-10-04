@@ -230,6 +230,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** - Lightweight Python framework for multi-agent workflows. Built-in primitives for agents, handoffs, guardrails, and sessions. Production-ready evolution of the experimental Swarm project; supports 100+ LLMs via LiteLLM.
 - **[Agno](https://github.com/agno-agi/agno)** - Build, run and manage secure multi-agent systems in your cloud with Agno's AgentOS. Built for speed, scale, and developer experience.
 - **[CrewAI](https://github.com/crewAIInc/crewAI)** - Python framework for orchestrating role-based AI agent teams. Agents collaborate like human teams with defined roles, goals, and delegation. Over 100,000 developers certified; works with any LLM.
+- **[SaaS Marketing Agents](https://github.com/shalintripathi/saas-marketing-agents)** - Open-source (MIT) role-based multi-agent system built specifically for B2B SaaS marketing: 88 specialist agent personas across 17 disciplines, packaged as 19 installable Claude Code skills and coordinated by the CATALYST orchestrator, plus worked ABM/launch/demand-gen workflows and an AEO/GEO playbook. Use it when you want a marketing-specific agent team in Claude Code (the agents are plain Markdown, so they also drop into any AI tool); less relevant if you need a general-purpose framework like CrewAI or a single one-off prompt.
 
 ---
 
