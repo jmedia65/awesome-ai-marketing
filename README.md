@@ -95,6 +95,7 @@
 
 - **[SE Ranking AI Overviews Tracker](https://seranking.com/ai-overviews-tracker.html)** - Tracks your website's visibility specifically within Google AI Overviews—shows which keywords trigger AI answers and which sources get cited.
 - **[Otterly.AI](https://otterly.ai)** - Real-time AI search monitoring with daily citation updates across ChatGPT, Perplexity, and Google AI Overviews; includes Slack alerts when citations appear or disappear.
+- **[MentionsAPI](https://mentionsapi.com)** - Developer API for AI brand visibility and GEO — one call returns brand mentions, rank, sentiment, and citations across ChatGPT, Claude, Gemini, Perplexity, plus Google AI Overviews, AI Mode, and Bing Copilot.
 
 ---
 
