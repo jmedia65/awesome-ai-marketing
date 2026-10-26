@@ -10,6 +10,7 @@
 
 ## Table of Contents
 
+- [Ideoy](https://ideoy.ai) - Remake trending AI meme / viral video templates from one photo or selfie
 - [Prompts & Frameworks (Start Here)](#prompts--frameworks-start-here)
 - [Content Creation](#content-creation)
 - [SEO & Search Optimization](#seo--search-optimization)
