@@ -84,6 +84,7 @@
 
 ### Traditional SEO with AI
 
+- **[CrakSEO Search Console MCP](https://docs.crakseo.com/mcp-servers/search-console)** - Free remote MCP access for AI assistants to query owned-site Google Search Console and Bing Webmaster data; authentication required.
 - **[Ahrefs](https://ahrefs.com)** - Industry-standard backlink and keyword research suite; AI Content Helper analyzes top-ranking pages to suggest improvements focused on search intent alignment.
 - **[Semrush](https://semrush.com)** - Comprehensive SEO platform (55+ tools) with AI Copilot that surfaces prioritized recommendations daily; AI Visibility Toolkit now tracks brand presence in ChatGPT, Perplexity, and AI Overviews.
 - **[Rank Math](https://rankmath.com)** - WordPress SEO plugin with 3M+ installs; AI assists with meta tags, schema markup, and on-page optimization. Best free option for WordPress sites.
