@@ -110,6 +110,7 @@
 - **[Flick](https://flick.social)** - AI copilot "Iris" brainstorms post ideas in stages—starts with concepts, develops full posts, then repurposes for each channel with hashtag generation.
 - **[Ocoya](https://ocoya.com)** - All-in-one dashboard writes captions, picks hashtags, and creates post graphics together; strong ecommerce integrations for product-focused posting.
 - **[Expandi](https://expandi.io)** - LinkedIn automation for outreach. Use carefully to avoid being flagged.
+- **EasySociable** - Turns an idea into a branded multi-page carousel inside your AI coding agent, with an editable Studio for fixing text in place instead of re-exporting; exports PNG packs sized for TikTok, Instagram, LinkedIn, Threads and Xiaohongshu. Use it when carousels are a recurring part of your content workflow and brand consistency matters; skip it if you only need one-off single images.
 
 ---
 
