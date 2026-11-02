@@ -188,6 +188,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[Visualping](https://visualping.io)** - Website change monitoring with AI-generated summaries. Get alerts when competitors update pricing, messaging, or product pages. Generous free tier.
 - **[Google Alerts](https://google.com/alerts)** - Free and dead simple. Set up alerts for competitor names, industry keywords, or executive mentions. Limited but costs nothing.
 - **[Awario](https://awario.com)** - Budget social listening tool tracking brand and competitor mentions across social, blogs, and forums. Good entry point before graduating to Brandwatch.
+- **[Vaneform](https://vaneform.com)** - Free website traffic checker with monthly visit estimates, trends, traffic sources, and growth leaderboards; hosted MCP for AI assistants.
 
 ---
 
