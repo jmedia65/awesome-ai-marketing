@@ -189,6 +189,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[Google Alerts](https://google.com/alerts)** - Free and dead simple. Set up alerts for competitor names, industry keywords, or executive mentions. Limited but costs nothing.
 - **[Awario](https://awario.com)** - Budget social listening tool tracking brand and competitor mentions across social, blogs, and forums. Good entry point before graduating to Brandwatch.
 
+- **[EarlyLore](https://earlylore.com)** - Research workspace for founders studying real SaaS products: positioning, revenue signals and competitor page changes (pricing, features, messaging) with source and observation date kept next to each change. Free to browse.
 ---
 
 ## Ad Creative & Copy
