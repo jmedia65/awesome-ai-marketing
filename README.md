@@ -188,6 +188,7 @@ The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but exp
 - **[Visualping](https://visualping.io)** - Website change monitoring with AI-generated summaries. Get alerts when competitors update pricing, messaging, or product pages. Generous free tier.
 - **[Google Alerts](https://google.com/alerts)** - Free and dead simple. Set up alerts for competitor names, industry keywords, or executive mentions. Limited but costs nothing.
 - **[Awario](https://awario.com)** - Budget social listening tool tracking brand and competitor mentions across social, blogs, and forums. Good entry point before graduating to Brandwatch.
+- **[Arcmira: YouTube Transcript Search](https://arcmira.com)** - YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers. Use it to locate source clips for market research; coverage is partial, so it is not a complete sentiment or market-share measure. Account required; free and paid plans. [API docs](https://arcmira.com/docs).
 
 ---
 
