@@ -119,6 +119,7 @@
 
 - **[Fal](https://fal.ai/)** - A developer-focused generative media platform: Access the world's top image, video, and audio generation models in one hub. Build and fine-tune with serverless GPUs and on-demand clusters. Currently my go-to for media content creation.
 - **[Canva Magic Studio](https://canva.com/magic/)** - Canva Magic Studio is Canva's suite of AI tools for generating designs from text prompts, creating images, editing photos (e.g., Magic Grab, Expand), and transforming content (e.g., Magic Switch for resizing, translating, or reformatting).
+- **[EmptyRoom AI](https://emptyroomai.com/)** - AI virtual staging that furnishes vacant real estate listing photos in any style at $4 per room with free restages; honest context: staging-only, best for agents who shoot clean wide base photos and label every staged image.
 
 ### Video Content
 
