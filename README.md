@@ -90,6 +90,7 @@
 - **[Surfer SEO](https://surferseo.com)** - On-page optimization platform that analyzes top-ranking competitors; AI-powered content editor scores your drafts against data-driven recommendations for keywords, structure, and length.
 - **[Clearscope](https://clearscope.io)** - Content optimization tool with AI-powered grading; scores content in real-time with specific term recommendations. Integrates with Google Docs and WordPress. Enterprise-focused.
 - **[Ubersuggest](https://neilpatel.com/ubersuggest/)** - Budget-friendly SEO suite for keyword research, site audits, and competitor analysis; AI Writing Assistant generates SEO-optimized content ideas. Ideal for beginners and small businesses with generous free tier.
+- **[seodata.dev](https://seodata.dev)** - Free Google search volume, CPC and competition for 50+ countries, read as demand data: size a market, compare countries or spot early trends before you build or write. Works inside ChatGPT and Claude (MCP) or with one curl call. Not a full SEO suite: no rank tracking, backlinks or site audits.
 
 ### AI Search Optimization (AEO)
 
