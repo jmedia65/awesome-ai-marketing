@@ -129,6 +129,7 @@
 - **[OpusClip](https://opus.pro)** - Analyzes long podcasts/webinars and auto-generates 10+ short clips with captions, AI-selected hooks, and virality scores.
 - **[HeyGen](https://heygen.com)** - AI avatars for UGC-style marketing videos with voice cloning in 175+ languages and lip-sync translation; generates videos directly from product URLs.
 - **[Fliki](https://fliki.ai/)** - Text-to-video platform with 2,000+ AI voices in 80+ languages; turns scripts, blog posts, or URLs into videos with auto-matched stock footage and voiceovers. Strong for YouTube Shorts, TikTok, and repurposing written content.
+- **[Starpop](https://starpop.ai)** - AI ad agent that researches customer language and winning ads, then generates UGC, static and video ads for e-commerce, apps and SaaS.
 
 ---
 
