@@ -69,13 +69,13 @@ Install one, try it on a real task, and keep what works. You don't need all of t
 ### SEO & AI Search Skills
 
 - **[AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)**: A full SEO audit plugin with sub-skills and specialist agents for technical SEO, E-E-A-T, schema, local, e-commerce and GEO. Hands you a prioritized action plan. The strongest open-source SEO audit for Claude Code. MIT.
-- **[nowork-studio/notfair-plugin](https://github.com/nowork-studio/notfair-plugin)**: SEO, GEO, Google Ads, Meta Ads, GA4/Search Console and WordPress workflows, with explicit approval steps before any change goes live. Good if you want one plugin that covers organic and paid. MIT.
+- **[nowork-studio/notfair-plugin](https://github.com/nowork-studio/notfair-plugin)**: SEO, GEO, Google Ads, Meta Ads, GA4/Search Console and WordPress workflows, with explicit approval steps before any change goes live. Good if you want one plugin that covers organic and paid. MIT. The team also sells NotFair, a paid ads management product.
 - **[onvoyage-ai/gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills)**: A pipeline of AEO/GEO skills: brand research, prompt targets, content planning, writing, claim verification, website AEO audit and fixes. Each step writes a file the next step reads. MIT.
 - **[Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)**: SEO and GEO skills that work from your real Search Console and GA4 data, not estimates. Vendor-backed: built around Ryze's hosted MCP connector. MIT.
 
 ### Ad Creative Skills
 
-- **[SupercmoHQ/superCMO-skills](https://github.com/SupercmoHQ/superCMO-skills)**: Skills plus a local MCP server that turn a product photo and a brief into ad creative: UGC-style video, product photography, image ads. Apache-2.0.
+- **[SupercmoHQ/superCMO-skills](https://github.com/SupercmoHQ/superCMO-skills)**: Skills plus a local MCP server that turn a product photo and a brief into ad creative: UGC-style video, product photography, image ads. Free with your own API keys, or pay per use on SuperCMO's hosted version. Apache-2.0.
 - **[smixs/creative-director-skill](https://github.com/smixs/creative-director-skill)**: An ideation skill that applies 20+ structured creativity methods (SCAMPER, TRIZ, synectics) and scores the ideas. Useful when campaign concepts all start to sound the same. CC-BY-4.0.
 
 ### Specialized
@@ -92,7 +92,7 @@ Connect your assistant to the systems where your numbers live. **Start read-only
 
 - **[OpenSEO MCP](https://openseo.so/docs/mcp)**: My go-to. Keyword, backlink, rank and site audit data in Claude, ChatGPT or Cursor, at usage-based prices well below the big suites. Open source ([GitHub](https://github.com/every-app/open-seo)), MIT. [More on OpenSEO below](#seo).
 - **[Google Analytics MCP](https://github.com/googleanalytics/google-analytics-mcp)**: Official, Apache-2.0. Ask GA4 questions in plain English.
-- **[AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc)**: Search Console insights in Claude: queries, pages, CTR gaps, indexing. Built by an SEO for SEOs. Community, MIT.
+- **[AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc)**: Search Console insights in Claude: queries, pages, CTR gaps, indexing. Built by an SEO for SEOs. Community, MIT. The author also sells a hosted version.
 - **[ahonn/mcp-server-gsc](https://github.com/ahonn/mcp-server-gsc)**: A lighter Search Console alternative. Community, MIT.
 - **[Ahrefs MCP](https://docs.ahrefs.com/en/mcp/docs/introduction)**: Official, hosted. Ahrefs keyword, backlink and site data in your assistant. Requires an Ahrefs plan.
 - **[Semrush MCP](https://www.semrush.com/kb/1618-mcp)**: Official, hosted. Live Semrush data in AI tools. Requires a Semrush plan.
@@ -147,8 +147,8 @@ People now ask ChatGPT, Perplexity, Gemini and Google AI Mode for recommendation
 
 ### Visibility Trackers (Open Source)
 
-- **[elmohq/elmo](https://github.com/elmohq/elmo)**: Track how AI engines mention and cite your brand. Self-hostable. MIT.
-- **[limelit-co/open](https://github.com/limelit-co/open)**: Self-hosted tracking across ChatGPT, Claude, Perplexity, Gemini and Google. Apache-2.0.
+- **[elmohq/elmo](https://github.com/elmohq/elmo)**: Track how AI engines mention and cite your brand. Self-hostable. MIT. Also sold as a hosted service (Elmo Cloud).
+- **[limelit-co/open](https://github.com/limelit-co/open)**: Self-hosted tracking across ChatGPT, Claude, Perplexity, Gemini and Google. Apache-2.0. Also sold as a hosted service (Limelit Cloud).
 - **[danishashko/geo-aeo-tracker](https://github.com/danishashko/geo-aeo-tracker)**: Lightweight tracker plus AEO checker. MIT.
 - **[yaojingang/GEOInflow](https://github.com/yaojingang/GEOInflow)**: Self-hosted analytics for AI crawler visits and AI-referred traffic. MIT.
 
