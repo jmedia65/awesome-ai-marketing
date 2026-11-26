@@ -39,6 +39,7 @@ A year ago, "AI marketing" meant picking the right SaaS tool. Today a growing sh
 - **[Claude Code](https://code.claude.com/docs/en/overview)**: Anthropic's agent for the terminal, desktop and IDEs. Despite the name, much of the marketing skills ecosystem was built for it first. Supports [skills](https://code.claude.com/docs/en/skills), [MCP](https://code.claude.com/docs/en/mcp) and plugins.
 - **[Claude Cowork](https://claude.com/product/cowork)**: Claude's agent for knowledge work on your files and apps, with no terminal involved. The friendliest entry point for non-technical marketers.
 - **[OpenAI Codex](https://learn.chatgpt.com/docs)**: OpenAI's agent. Supports [skills](https://learn.chatgpt.com/docs/build-skills) and MCP, and most skill packs below install into it too.
+- **[VS Code](https://code.visualstudio.com)**: The classic free editor, still one of my daily tools. Use it to inspect files and review what an agent changed, or run agents inside it with the [Claude Code](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) and [Codex](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt) extensions.
 - **[Cursor](https://cursor.com)**: AI code editor. Useful if you also build landing pages or internal tools.
 
 ### Learn the Building Blocks
