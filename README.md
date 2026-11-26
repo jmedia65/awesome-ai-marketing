@@ -65,7 +65,6 @@ Install one, try it on a real task, and keep what works. You don't need all of t
 - **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)**: The reference pack and the most-starred marketing skills repo on GitHub. Skills for CRO, copywriting, SEO, paid ads, email, launches, pricing and more. They share a `product-marketing` context file, so every skill knows your product and audience. Best overall starting point. MIT. Funded by disclosed "verified partners" listed in the README.
 - **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills)**: 120 skills across seven disciplines (narrative, SEO/GEO, social, email, paid, influencer, launch), each with scored quality gates. The most ambitious pack, and the heaviest. Pick it if you want structure; skip it if you want something light. Apache-2.0.
 - **[ericosiu/ai-marketing-skills](https://github.com/ericosiu/ai-marketing-skills)**: Skills built around AI search and turning traffic into pipeline: SEO ops, outbound, lead research, CRO, revenue attribution. Strong for B2B. Vendor-backed: many skills connect through Single Grain's hosted MCP gateway. MIT.
-- **[zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude)**: `/market audit <url>` runs parallel agents and returns a scored marketing audit, plus copy, email, social and ad commands. Built for freelancers and agencies who sell audits. Quick to try. MIT.
 
 ### SEO & AI Search Skills
 
@@ -74,15 +73,13 @@ Install one, try it on a real task, and keep what works. You don't need all of t
 - **[onvoyage-ai/gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills)**: A pipeline of AEO/GEO skills: brand research, prompt targets, content planning, writing, claim verification, website AEO audit and fixes. Each step writes a file the next step reads. MIT.
 - **[Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)**: SEO and GEO skills that work from your real Search Console and GA4 data, not estimates. Vendor-backed: built around Ryze's hosted MCP connector. MIT.
 
-### Paid Ads & Creative Skills
+### Ad Creative Skills
 
-- **[irinabuht12-oss/marketing-skills](https://github.com/irinabuht12-oss/marketing-skills)**: Dozens of skills for Google, Meta, LinkedIn and Reddit Ads audits, plus SEO and AI visibility. Practical diagnostics ("why did my CPA go up?"). Vendor-backed: designed around Ryze's hosted MCP. No license file.
 - **[SupercmoHQ/superCMO-skills](https://github.com/SupercmoHQ/superCMO-skills)**: Skills plus a local MCP server that turn a product photo and a brief into ad creative: UGC-style video, product photography, image ads. Apache-2.0.
 - **[smixs/creative-director-skill](https://github.com/smixs/creative-director-skill)**: An ideation skill that applies 20+ structured creativity methods (SCAMPER, TRIZ, synectics) and scores the ideas. Useful when campaign concepts all start to sound the same. CC-BY-4.0.
 
 ### Specialized
 
-- **[ishwarjha/claude-marketing-research-skill](https://github.com/ishwarjha/claude-marketing-research-skill)**: Structured market research: competitors, customer avatars, positioning. Apache-2.0.
 - **[vercel-labs/marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template)**: A template for a team of marketing agents. For builders who want to run agents as an app, not inside a chat. MIT.
 
 ---
@@ -104,7 +101,7 @@ Connect your assistant to the systems where your numbers live. **Start read-only
 ### Ads
 
 - **[Google Ads MCP](https://github.com/googleads/google-ads-mcp)**: Official. Query campaigns, performance and search terms.
-- **[pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp)**: Meta (Facebook/Instagram) Ads for Claude, ChatGPT and Cursor. Community.
+- For Meta, LinkedIn, Reddit and TikTok Ads, the [NotFair](https://github.com/nowork-studio/notfair-plugin) skills (above) connect to those platforms directly.
 
 ### CRM, Email & Commerce
 
@@ -134,7 +131,6 @@ People now ask ChatGPT, Perplexity, Gemini and Google AI Mode for recommendation
 - [OpenAI: Overview of OpenAI crawlers](https://developers.openai.com/api/docs/bots): What OAI-SearchBot and GPTBot do, and how to allow ChatGPT search without allowing training.
 - [GEO: Generative Engine Optimization (Princeton et al.)](https://arxiv.org/abs/2311.09735): The paper that named the field. Citing sources, adding statistics and quoting experts measurably raised visibility in AI answers.
 - [llms.txt](https://llmstxt.org/): A proposed file that points AI tools to your key content. Cheap to add. Don't expect miracles: major AI search engines haven't committed to using it.
-- [amplifying-ai/awesome-generative-engine-optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization): A deeper GEO reading list of guides, research and tools.
 
 ### Check Your Basics
 

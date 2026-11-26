@@ -6,12 +6,14 @@ Thanks for helping keep this list useful. It's curated, not a directory: most su
 
 **Priority: open-source skills, agents and MCP servers for marketing work.** To qualify, a project needs:
 
-- An open-source license
-- Commits within the last 3 months
+- An open-source or open-content license (MIT, Apache-2.0, CC-BY and so on). Source-available licenses such as BSL don't count.
+- Commits within the last 6 months. Skills are mostly text, so a stable one doesn't need weekly updates, but it shouldn't be abandoned.
 - Signs of real use: roughly 100+ stars, or a maintainer or organization with a track record
 - Docs clear enough that a marketer can install and use it
 
-**Official MCP servers from established vendors** (Google, HubSpot, Klaviyo and so on) are welcome.
+**Official repos and MCP servers from established vendors** (Google, Anthropic, HubSpot, Klaviyo and so on) are welcome.
+
+**Directories, prompt libraries and template collections** are listed when they're genuinely useful and actively maintained (updated within the last 6 months). The license and star rules above apply to things you install and run, not to reading lists.
 
 **Commercial SaaS tools** are added rarely, at the maintainer's discretion, and only based on direct experience or strong evidence that marketers use them. Please don't open PRs for new SaaS tools. If you think one belongs here, open an issue explaining who uses it and why it beats what's already listed.
 
