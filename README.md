@@ -1,312 +1,329 @@
-# Awesome AI Marketing: Best AI Marketing Tools for 2026
+# Awesome AI Marketing
 
-> A curated list of AI tools and prompts worth testing for marketing.
+> A curated list of the AI skills, agents, MCP servers and tools marketers actually run, with honest notes on what each one is good for and who's behind it.
 
-⭐ If you find this useful, give it a star and share it with other marketers navigating the AI noise.
+**Last updated: November 2026** · Maintained by [Max Braglia](https://maxbraglia.com)
 
 ![AI marketing tools dashboard with neural network connections](assets/awesome-ai-marketing-hero.jpg)
 
+A year ago, "AI marketing" meant picking the right SaaS tool. Today a growing share of the work runs inside an AI assistant (Claude, ChatGPT/Codex, Cursor) using **skills** (reusable instructions), **MCP servers** (live connections to your ad accounts, analytics and CRM) and **agents** (multi-step workflows). This list is organized around that shift. The SaaS tools are still here, trimmed to the ones worth a look.
+
+**How to read the notes:** every entry says what it's good for. When an open-source project mainly exists to send you to a paid product, it's marked **vendor-backed**. That doesn't make it bad. It just means you should know.
+
+⭐ If this saves you research time, star it and share it with a marketer who's drowning in tool options.
+
 ---
 
-## Table of Contents
+## Contents
 
-- [Prompts & Frameworks (Start Here)](#prompts--frameworks-start-here)
-- [Content Creation](#content-creation)
-- [SEO & Search Optimization](#seo--search-optimization)
-- [Social Media Management](#social-media-management)
-- [Video & Visual Content](#video--visual-content)
-- [Email Marketing](#email-marketing)
-- [Customer Service & Chatbots](#customer-service--chatbots)
-- [Analytics & Insights](#analytics--insights)
-- [Competitive Intelligence & Market Research](#competitive-intelligence--market-research)
-- [Ad Creative & Copy](#ad-creative--copy)
-- [Landing Pages & Conversion Optimization](#landing-pages--conversion-optimization)
-- [Workflow Automation](#workflow-automation)
-- [How to Use This List](#how-to-use-this-list)
+- [Start Here: Skills, MCP and Agents in Plain English](#start-here-skills-mcp-and-agents-in-plain-english)
+- [Marketing Skill Packs](#marketing-skill-packs)
+- [MCP Servers for Marketing Data](#mcp-servers-for-marketing-data)
+- [AI Search Visibility (AEO / GEO)](#ai-search-visibility-aeo--geo)
+- [Workflows & Automation](#workflows--automation)
+- [Verification & Regulated Content](#verification--regulated-content)
+- [Tools by Job](#tools-by-job)
+- [Before You Buy Anything](#before-you-buy-anything)
 - [Contributing](#contributing)
 
 ---
 
-## Prompts & Frameworks (Start Here)
+## Start Here: Skills, MCP and Agents in Plain English
 
-**Philosophy:** Before paying for tools, try these prompts with ChatGPT/Claude. Many "AI marketing tools" are just wrappers around prompts like these.
+- **Skill:** a folder of instructions (a `SKILL.md` plus references) that teaches an AI assistant how to do one job your way, like "audit a landing page" or "write a cold email sequence". Write once, reuse forever.
+- **MCP server:** a connector that gives the assistant live access to a system: Google Ads, GA4, Search Console, HubSpot, your CMS. Without one, the AI works from whatever you paste in. With one, it works from your real data.
+- **Agent:** an assistant that runs a multi-step task on its own, using skills and MCP connections, and hands you the result to review.
 
-### Essential Prompt Resources
+### Where to Run Them
 
-- [Anthropic's Prompt Library](https://platform.claude.com/docs/en/resources/prompt-library/library) - High-quality optimized prompts from the Claude team for a variety of business and personal tasks.
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - In this repository (139k+ GitHub stars), you will find a wide variety of prompts that can be used with ChatGPT, Claude, Gemini, Hugging Face Chat, Llama, Mistral and other AI chat models.
-- [OpenAI's Prompting Guide](https://platform.openai.com/docs/guides/prompting) - Prompting is the process of providing input to a model. The quality of your output often depends on how well you're able to prompt the model. Learn strategies, techniques, and tools to construct prompts (with code examples).
-- [Semrush AI Prompt Library for Content Marketers](https://www.semrush.com/content-hub/ai-prompt-library/) - 600+ tested prompts organized by category (content ideation, SEO, audience research) with placeholder fields for immediate use
-- [HubSpot AI Prompt Libraries](https://offers.hubspot.com/ai-prompt-library) - A curated collection of AI prompts designed to unlock unconventional marketing strategies
-- [AI Prompt Engineering for Digital Marketers](https://maxbraglia.substack.com/p/the-complete-prompt-engineering-toolkit) - A practical guide to getting better results from AI tools like ChatGPT, Claude, and Gemini.
+- **[Claude Code](https://code.claude.com/docs/en/overview)**: Anthropic's agent for the terminal, desktop and IDEs. Despite the name, much of the marketing skills ecosystem was built for it first. Supports [skills](https://code.claude.com/docs/en/skills), [MCP](https://code.claude.com/docs/en/mcp) and plugins.
+- **[Claude Cowork](https://claude.com/product/cowork)**: Claude's agent for knowledge work on your files and apps, with no terminal involved. The friendliest entry point for non-technical marketers.
+- **[OpenAI Codex](https://learn.chatgpt.com/docs)**: OpenAI's agent. Supports [skills](https://learn.chatgpt.com/docs/build-skills) and MCP, and most skill packs below install into it too.
+- **[Cursor](https://cursor.com)**: AI code editor. Useful if you also build landing pages or internal tools.
 
-### When to Use Prompts vs Tools
+### Learn the Building Blocks
 
-**Use raw prompts when:**
+- [Agent Skills](https://agentskills.io): The open skills format, now shared across Claude, Codex, Cursor and many other agents.
+- [anthropics/skills](https://github.com/anthropics/skills): Anthropic's official example skills, including document skills (Word, Excel, PowerPoint, PDF) that marketers use daily.
+- [Model Context Protocol](https://modelcontextprotocol.io): The MCP spec and docs. Start with the intro, skip the rest unless you're building.
+- [The 5-Step Framework I Use With AI Coding Agents](https://maxbraglia.substack.com/p/the-5-step-framework-i-use-with-ai-codiing-agents): Idea, spec, plan, build, verify. How I work with agents day to day.
 
-- You run this task <10 times per month
-- You're comfortable with ChatGPT/Claude interface
-- Budget is tight
+### Directories of Skills (All Disciplines)
 
-**Use specialized tools when:**
-
-- You run this task daily
-- You need team collaboration features
-- The tool adds genuine features beyond prompting (data integrations, workflow automation, etc.)
-
-**Example:** Don't pay for a "social media post generator" that's just ChatGPT with a prompt. DO pay for Buffer if you need scheduling, team approval workflows, and analytics.
-
-**💡 Pro Tip:** Start with prompts. Only upgrade to paid tools when you've proven the workflow is valuable and the tool adds real features beyond better UI.
+- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills): The broadest index, 1,000+ skills across agents.
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): The most-starred Claude skills list. General purpose, with some marketing entries.
 
 ---
 
-## Content Creation
+## Marketing Skill Packs
 
-### General Writing Tools
+Install one, try it on a real task, and keep what works. You don't need all of them. Most install with one command into Claude Code, Codex or Cursor.
 
-- **[ChatGPT](https://chatgpt.com/)** - The foundation. Start here before trying specialized tools.
-- **[Claude](https://claude.ai)** - Better for long-form content and nuanced writing. Excels at maintaining context.
+### Generalist Packs (Start With One)
 
-### Specialized Content Tools
+- **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)**: The reference pack and the most-starred marketing skills repo on GitHub. Skills for CRO, copywriting, SEO, paid ads, email, launches, pricing and more. They share a `product-marketing` context file, so every skill knows your product and audience. Best overall starting point. MIT. Funded by disclosed "verified partners" listed in the README.
+- **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills)**: 120 skills across seven disciplines (narrative, SEO/GEO, social, email, paid, influencer, launch), each with scored quality gates. The most ambitious pack, and the heaviest. Pick it if you want structure; skip it if you want something light. Apache-2.0.
+- **[ericosiu/ai-marketing-skills](https://github.com/ericosiu/ai-marketing-skills)**: Skills built around AI search and turning traffic into pipeline: SEO ops, outbound, lead research, CRO, revenue attribution. Strong for B2B. Vendor-backed: many skills connect through Single Grain's hosted MCP gateway. MIT.
+- **[zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude)**: `/market audit <url>` runs parallel agents and returns a scored marketing audit, plus copy, email, social and ad commands. Built for freelancers and agencies who sell audits. Quick to try. MIT.
 
-- **[Jasper](https://jasper.ai)** - Jasper AI is an AI platform that helps marketing teams quickly generate blog posts, social media copy, emails, and images using natural language inputs, with features for SEO optimization and brand voice consistency.
-- **[Copy.ai](https://copy.ai)** - Copy.ai is an AI platform that generates marketing copy, blog posts, emails, and social media content to help sales and marketing teams brainstorm ideas, summarize information, and scale personalized GTM processes efficiently.
-- **[Writesonic](https://writesonic.com)** - Writesonic is an AI platform that generates articles, ads, product descriptions, and social media posts, with tools for SEO optimization and maintaining brand consistency to streamline marketing and writing tasks.
-- **[Frase](https://frase.io)** - Frase.io is an AI platform that helps marketers and writers research keywords, analyze competitors, and optimize articles for SEO by drawing insights from top-ranking search results.
-- **[Rytr](https://rytr.me)** - Rytr is an AI writing assistant that quickly generates blog posts, emails, ads, and social media content using prompts, templates, customizable tones, and support for multiple languages.
-- **[Anyword](https://anyword.com)** - Anyword is an AI platform that generates, scores, and optimizes high-converting ad copy, emails, social media posts, and website content, using predictive analytics to forecast performance for specific audiences.
-- **[Koala](https://koala.sh/)** - Koala AI is a suite of AI-powered tools for content creators, focusing on SEO-friendly article writing, with core features like KoalaWriter for generating long-form content
-- **[NEURONwriter](https://neuronwriter.com/)** - NeuronWriter is an AI content optimization platform that uses generative AI and semantic SEO to help users create high-ranking Google content, with real-time suggestions for keywords, topics, structure, and internal linking based on competitor analysis.
+### SEO & AI Search Skills
 
----
+- **[AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)**: A full SEO audit plugin with sub-skills and specialist agents for technical SEO, E-E-A-T, schema, local, e-commerce and GEO. Hands you a prioritized action plan. The strongest open-source SEO audit for Claude Code. MIT.
+- **[nowork-studio/notfair-plugin](https://github.com/nowork-studio/notfair-plugin)**: SEO, GEO, Google Ads, Meta Ads, GA4/Search Console and WordPress workflows, with explicit approval steps before any change goes live. Good if you want one plugin that covers organic and paid. MIT.
+- **[onvoyage-ai/gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills)**: A pipeline of AEO/GEO skills: brand research, prompt targets, content planning, writing, claim verification, website AEO audit and fixes. Each step writes a file the next step reads. MIT.
+- **[Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)**: SEO and GEO skills that work from your real Search Console and GA4 data, not estimates. Vendor-backed: built around Ryze's hosted MCP connector. MIT.
 
-## SEO & Search Optimization
+### Paid Ads & Creative Skills
 
-### Traditional SEO with AI
+- **[irinabuht12-oss/marketing-skills](https://github.com/irinabuht12-oss/marketing-skills)**: Dozens of skills for Google, Meta, LinkedIn and Reddit Ads audits, plus SEO and AI visibility. Practical diagnostics ("why did my CPA go up?"). Vendor-backed: designed around Ryze's hosted MCP. No license file.
+- **[SupercmoHQ/superCMO-skills](https://github.com/SupercmoHQ/superCMO-skills)**: Skills plus a local MCP server that turn a product photo and a brief into ad creative: UGC-style video, product photography, image ads. Apache-2.0.
+- **[smixs/creative-director-skill](https://github.com/smixs/creative-director-skill)**: An ideation skill that applies 20+ structured creativity methods (SCAMPER, TRIZ, synectics) and scores the ideas. Useful when campaign concepts all start to sound the same. CC-BY-4.0.
 
-- **[Ahrefs](https://ahrefs.com)** - Industry-standard backlink and keyword research suite; AI Content Helper analyzes top-ranking pages to suggest improvements focused on search intent alignment.
-- **[Semrush](https://semrush.com)** - Comprehensive SEO platform (55+ tools) with AI Copilot that surfaces prioritized recommendations daily; AI Visibility Toolkit now tracks brand presence in ChatGPT, Perplexity, and AI Overviews.
-- **[Rank Math](https://rankmath.com)** - WordPress SEO plugin with 3M+ installs; AI assists with meta tags, schema markup, and on-page optimization. Best free option for WordPress sites.
-- **[Surfer SEO](https://surferseo.com)** - On-page optimization platform that analyzes top-ranking competitors; AI-powered content editor scores your drafts against data-driven recommendations for keywords, structure, and length.
-- **[Clearscope](https://clearscope.io)** - Content optimization tool with AI-powered grading; scores content in real-time with specific term recommendations. Integrates with Google Docs and WordPress. Enterprise-focused.
-- **[Ubersuggest](https://neilpatel.com/ubersuggest/)** - Budget-friendly SEO suite for keyword research, site audits, and competitor analysis; AI Writing Assistant generates SEO-optimized content ideas. Ideal for beginners and small businesses with generous free tier.
+### Specialized
 
-### AI Search Optimization (AEO)
-
-- **[SE Ranking AI Overviews Tracker](https://seranking.com/ai-overviews-tracker.html)** - Tracks your website's visibility specifically within Google AI Overviews—shows which keywords trigger AI answers and which sources get cited.
-- **[Otterly.AI](https://otterly.ai)** - Real-time AI search monitoring with daily citation updates across ChatGPT, Perplexity, and Google AI Overviews; includes Slack alerts when citations appear or disappear.
+- **[ishwarjha/claude-marketing-research-skill](https://github.com/ishwarjha/claude-marketing-research-skill)**: Structured market research: competitors, customer avatars, positioning. Apache-2.0.
+- **[vercel-labs/marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template)**: A template for a team of marketing agents. For builders who want to run agents as an app, not inside a chat. MIT.
 
 ---
 
-## Social Media Management
+## MCP Servers for Marketing Data
 
-- **[Buffer](https://buffer.com)** - AI Assistant detects which platform you're writing for and adapts output accordingly—turns one idea into 10 tailored posts with proper formatting and tone.
-- **[Later](https://later.com)** - Visual-first scheduling optimized for Instagram grids and visual feeds; AI suggests best times to post and hashtags based on your audience engagement patterns.
-- **[Typefully](https://typefully.com)** - Minimalist writing and scheduling for X, LinkedIn, Threads, and Bluesky; distraction-free editor excels at crafting threads with AI suggestions to sharpen your copy. Popular with creators and founders.
-- **[ContentStudio](https://contentstudio.io)** - Tracks trending content across topics with sentiment analysis and suggests sharing opportunities; Chat AI assistant with prompt library adds real value.
-- **[Taplio](https://taplio.com)** - LinkedIn specifically. Content creation + engagement. Actually generates B2B leads.
-- **[FeedHive](https://feedhive.com)** - Auto-generates posts from prompts, predicts performance before publishing, and recycles evergreen content with conditional posting that fires actions when engagement hits targets.
-- **[Predis.ai](https://predis.ai)** - Generates complete Instagram carousels with coherent design from 4-word prompts, plus video posts using matched stock footage; includes competitor analysis.
-- **[Flick](https://flick.social)** - AI copilot "Iris" brainstorms post ideas in stages—starts with concepts, develops full posts, then repurposes for each channel with hashtag generation.
-- **[Ocoya](https://ocoya.com)** - All-in-one dashboard writes captions, picks hashtags, and creates post graphics together; strong ecommerce integrations for product-focused posting.
-- **[Expandi](https://expandi.io)** - LinkedIn automation for outreach. Use carefully to avoid being flagged.
+Connect your assistant to the systems where your numbers live. **Start read-only.** Give an agent write access to an ad account only after you've watched it work. Official servers come first in each group.
 
----
+### Analytics & Search Data
 
-## Video & Media Content
+- **[OpenSEO MCP](https://openseo.so/docs/mcp)**: My go-to. Keyword, backlink, rank and site audit data in Claude, ChatGPT or Cursor, at usage-based prices well below the big suites. Open source ([GitHub](https://github.com/every-app/open-seo)), MIT. [More on OpenSEO below](#seo).
+- **[Google Analytics MCP](https://github.com/googleanalytics/google-analytics-mcp)**: Official, Apache-2.0. Ask GA4 questions in plain English.
+- **[AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc)**: Search Console insights in Claude: queries, pages, CTR gaps, indexing. Built by an SEO for SEOs. Community, MIT.
+- **[ahonn/mcp-server-gsc](https://github.com/ahonn/mcp-server-gsc)**: A lighter Search Console alternative. Community, MIT.
+- **[Ahrefs MCP](https://docs.ahrefs.com/en/mcp/docs/introduction)**: Official, hosted. Ahrefs keyword, backlink and site data in your assistant. Requires an Ahrefs plan.
+- **[Semrush MCP](https://www.semrush.com/kb/1618-mcp)**: Official, hosted. Live Semrush data in AI tools. Requires a Semrush plan.
+- **[DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript)**: Official. Pay-per-request SERP, keyword and backlink data. Cheaper than a suite subscription if you only need raw data.
 
-### Visual & Content
+### Ads
 
-- **[Fal](https://fal.ai/)** - A developer-focused generative media platform: Access the world's top image, video, and audio generation models in one hub. Build and fine-tune with serverless GPUs and on-demand clusters. Currently my go-to for media content creation.
-- **[Canva Magic Studio](https://canva.com/magic/)** - Canva Magic Studio is Canva's suite of AI tools for generating designs from text prompts, creating images, editing photos (e.g., Magic Grab, Expand), and transforming content (e.g., Magic Switch for resizing, translating, or reformatting).
+- **[Google Ads MCP](https://github.com/googleads/google-ads-mcp)**: Official. Query campaigns, performance and search terms.
+- **[pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp)**: Meta (Facebook/Instagram) Ads for Claude, ChatGPT and Cursor. Community.
 
-### Video Content
+### CRM, Email & Commerce
 
-- **[Descript](https://descript.com)** - Edit video by editing text—delete a word, clip gets cut; removes filler words in one click, clones voice for corrections, generates social clips automatically.
-- **[Otter.ai](https://otter.ai)** - Otter is the AI Meeting transcription that makes content repurposing trivial with transcription, automated summaries, AI Chat, and more.
-- **[Synthesia](https://synthesia.io)** - Creates videos with 230+ realistic AI avatars speaking 140+ languages—no camera or actors needed; used by 100K+ businesses for training and marketing.
-- **[InVideo AI](https://invideo.io)** - Converts scripts, articles, or prompts into full videos with auto-selected stock footage, music, and transitions; 4,000+ templates for different platforms.
-- **[OpusClip](https://opus.pro)** - Analyzes long podcasts/webinars and auto-generates 10+ short clips with captions, AI-selected hooks, and virality scores.
-- **[HeyGen](https://heygen.com)** - AI avatars for UGC-style marketing videos with voice cloning in 175+ languages and lip-sync translation; generates videos directly from product URLs.
-- **[Fliki](https://fliki.ai/)** - Text-to-video platform with 2,000+ AI voices in 80+ languages; turns scripts, blog posts, or URLs into videos with auto-matched stock footage and voiceovers. Strong for YouTube Shorts, TikTok, and repurposing written content.
+- **[HubSpot MCP](https://developers.hubspot.com/ai-tools/mcp)**: Official. CRM records, deals and marketing data.
+- **[Klaviyo MCP](https://developers.klaviyo.com/en/docs/klaviyo_mcp_server)**: Official. Email and SMS performance, segments and campaigns.
 
----
+### Web Data & Research
 
-## Email Marketing
+- **[Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server)**: Official. Search and scrape web pages into clean text. Great for competitor research.
+- **[Apify MCP](https://github.com/apify/apify-mcp-server)**: Official. Thousands of ready-made scrapers for social, maps, search and marketplaces.
+- **[Bright Data MCP](https://github.com/brightdata/brightdata-mcp)**: Official. Public web data at scale, with unblocking built in.
 
-Most email platforms remain fundamentally traditional tools—list management, templates, automation workflows—with AI features layered on top. The AI additions (send-time optimization, subject line generation, predictive analytics) genuinely save time but rarely transform outcomes. Focus on choosing a platform that fits your business model first, then leverage whatever AI features come included.
+### Glue
 
-- **[Klaviyo](https://klaviyo.com)** - The ecommerce email standard, especially for Shopify. Predictive analytics forecast customer lifetime value and churn risk; Segments AI builds complex audiences from plain-language prompts. Premium pricing but deep integration with shopping platforms justifies it for serious stores.
-- **[Mailchimp](https://mailchimp.com/solutions/ai-tools/)** - Still the name everyone knows. Send Time Optimization analyzes historical patterns; AI generates on-brand emails with pre-built flows. Good all-rounder but increasingly expensive as you scale—many outgrow it.
-- **[ActiveCampaign](https://activecampaign.com)** - Automation powerhouse with Predictive Sending that analyzes individual contact behavior for optimal timing per recipient. 93.4% deliverability rate. Steeper learning curve but rewards the investment.
-- **[Kit](https://kit.com)** (formerly ConvertKit) - Creator-focused platform for newsletters, courses, and digital products. AI writing assistant for emails and landing pages; integrates with external AI tools. The go-to for solo creators and small teams who want simplicity.
-- **[Omnisend](https://omnisend.com)** - Ecommerce-specific with predictive product recommendations, abandoned cart automation, and cross-channel SMS from one dashboard. Strong Shopify/WooCommerce alternative to Klaviyo at lower price points.
-- **[Brevo](https://brevo.com)** - Budget-friendly option with "Aura" AI assistant for send-time optimization, subject lines, and auto-segmentation. Generous free tier makes it ideal for startups and small businesses testing email marketing.
-- **[MailerLite](https://mailerlite.com)** - Clean, affordable platform with AI writing assistant and smart sending. Notably supports Model Context Protocol (MCP) for integrating external AI tools like Claude or ChatGPT into campaign workflows—unusual for this price tier.
-- **[Lavender.ai](https://lavender.ai)** - Sales email coach, not a sending platform. Scores your draft and shows exactly why it might fail before you hit send. Integrates with Gmail/Outlook. For SDRs and sales teams writing cold outreach.
-- **[Instantly.ai](https://instantly.ai)** - Cold email infrastructure for outbound at scale. AI personalization that doesn't sound templated, plus deliverability tools to avoid spam folders. For agencies and sales teams doing volume prospecting.
+- **[Zapier MCP](https://zapier.com/mcp)**: Official. One connector to thousands of apps. The fastest way to let an assistant act in tools that don't have their own MCP.
+- **[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)**: Lets Claude, ChatGPT or Cursor build, debug and edit n8n workflows. Pairs with [n8n-skills](https://github.com/czlonkowski/n8n-skills). Community, MIT.
 
 ---
 
-## Customer Service & Chatbots
+## AI Search Visibility (AEO / GEO)
 
-- **[Zendesk AI Agents](https://zendesk.com/service/ai/)** - The 800-pound gorilla with 170,000+ customers and ~15% market share. Autonomous agents resolve up to 80% of interactions; Agent Copilot guides human agents with real-time suggestions. Enterprise-grade but increasingly expensive—many mid-market companies are exploring alternatives.
-- **[Fin](https://fin.ai/)** - Intercom's standalone AI agent, now available with any helpdesk (Zendesk, Salesforce, or Intercom's own). Resolves over a million tickets weekly; powered by proprietary "Fin AI Engine" with 40+ ML engineers behind it. Can integrate with your existing setup or pair with Intercom's helpdesk. Strong in SaaS and tech companies.
-- **[Freshdesk Freddy AI](https://freshworks.com/freshdesk/)** - Budget-friendly enterprise option with 50,000+ customers including HP and Honda. Intelligent ticket triaging, auto-responses, and intent detection; claims up to 60% productivity boost. Setup in minutes, not weeks. The value pick for growing companies.
-- **[Tidio Lyro](https://tidio.com/lyro/)** - SMB darling with 300,000+ businesses. Powered by Claude with strict knowledge-base grounding to prevent hallucinations. Free tier and visual flow builder make it accessible for small teams just starting with automation.
-- **[Gorgias](https://gorgias.com)** - E-commerce specialist with 15,000+ merchants (40% of Shopify's top 250). AI automates up to 60% of support while agents edit orders, process refunds, and manage subscriptions without leaving the platform. Usage-based pricing ($10/month for 50 tickets) fits seasonal businesses.
-- **[Ada](https://ada.cx)** - Enterprise unicorn ($1.2B valuation, $70M+ ARR) serving brands like Verizon, Canva, and Square. AI agents achieve up to 83% automated resolution across chat, voice, email, and social. No-code platform but enterprise pricing and sales process—this is for large-scale deployments, not SMBs.
+People now ask ChatGPT, Perplexity, Gemini and Google AI Mode for recommendations. If you're not in the answer, you're not on the shortlist. Some of this is new. Much of it is SEO fundamentals done properly: plain-language pages that say exactly what you do, who you serve and what it costs.
 
----
+### Guides & Primary Sources
 
-## Analytics & Insights
+- [Google: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features): Google's own guidance on AI Overviews and AI Mode. Short version: no special markup, just helpful, crawlable content.
+- [OpenAI: Overview of OpenAI crawlers](https://developers.openai.com/api/docs/bots): What OAI-SearchBot and GPTBot do, and how to allow ChatGPT search without allowing training.
+- [GEO: Generative Engine Optimization (Princeton et al.)](https://arxiv.org/abs/2311.09735): The paper that named the field. Citing sources, adding statistics and quoting experts measurably raised visibility in AI answers.
+- [llms.txt](https://llmstxt.org/): A proposed file that points AI tools to your key content. Cheap to add. Don't expect miracles: major AI search engines haven't committed to using it.
+- [amplifying-ai/awesome-generative-engine-optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization): A deeper GEO reading list of guides, research and tools.
 
-- **[Claude](https://claude.ai)** - Upload spreadsheets, CSVs, or exports from GA4/social platforms and ask questions in plain English. Artifacts feature visualizes data as interactive charts. Strong at pattern recognition and explaining findings in context.
-- **[ChatGPT](https://chatgpt.com)** - Similar capability for conversational data analysis. Code Interpreter handles complex transformations; useful for quick exploration of marketing datasets without touching SQL.
-- **[Julius.ai](https://julius.ai)** - Purpose-built for data analysis rather than general chat. Handles larger datasets and more complex operations than general-purpose LLMs; generates Python/R code you can audit and reuse.
-- **[Mixpanel](https://mixpanel.com)** - Event-based product analytics with AI-powered insights; tracks user behavior across web and mobile with anomaly detection and funnel analysis that marketers can use without SQL.
-- **[Amplitude](https://amplitude.com)** - Enterprise product analytics with predictive analytics and behavioral cohort analysis; uses ML to forecast conversion probabilities and identify at-risk users.
-- **[Northbeam](https://northbeam.io)** - Multi-touch attribution using ML to track customer journeys across all channels; combines first-party pixel tracking with media mix modeling for real-time ROI visibility.
-- **[Tableau AI](https://tableau.com)** - Industry-leading visualization enhanced with generative AI that automatically surfaces trends, anomalies, and correlations from marketing data without data science expertise.
-- **[Power BI](https://microsoft.com/en-us/power-platform/products/power-bi)** - Microsoft's BI with embedded Azure ML models; Copilot generates reports from natural language prompts and "decomposition tree" automatically drills into data relationships.
+### Check Your Basics
 
----
+- [AI Bot Access Analyzer](https://ai-bot-analyzer.maxtermedia.com/): Free. Checks whether AI crawlers can actually reach your site. I built it after client audits kept turning up sites whose robots.txt said "allow" while the CDN or firewall blocked the bots anyway ([how it works](https://maxbraglia.substack.com/p/building-an-ai-bot-access-checker)).
 
-## Competitive Intelligence & Market Research
+### Visibility Trackers (Commercial)
 
-The enterprise tools below (Similarweb, Brandwatch, Crayon) are powerful but expensive. For SMBs, consider the budget-friendly alternatives listed after, or start with free tiers where available.
+- **[Semrush AI Visibility Toolkit](https://www.semrush.com/kb/1493-ai-visibility-toolkit)**: Brand mentions and citations across ChatGPT, Perplexity and AI Overviews. The easy pick if you already pay for Semrush.
+- **[Ahrefs Brand Radar](https://ahrefs.com/brand-radar)**: Your brand's AI visibility against competitors, built on Ahrefs' data.
+- **[Otterly.AI](https://otterly.ai)**: Daily prompt and citation monitoring with alerts. Affordable entry point for SMBs and agencies.
+- **[Peec AI](https://peec.ai)**: Prompt tracking, share of voice and source analysis for marketing teams.
+- **[Profound](https://www.tryprofound.com)**: Enterprise-grade AI visibility platform.
+- **[SE Ranking AI Overviews Tracker](https://seranking.com/ai-overviews-tracker.html)**: Focused on Google AI Overviews: which keywords trigger them and who gets cited.
 
-**Enterprise Tools:**
+### Visibility Trackers (Open Source)
 
-- **[Similarweb](https://similarweb.com)** - Granular website traffic analysis and competitive benchmarking across 100M+ websites in 190 countries; AI Traffic add-on tracks chatbot-driven traffic. Free tier available with limited data.
-- **[Brandwatch](https://brandwatch.com)** - Enterprise social listening monitoring 100M+ sources with advanced AI sentiment analysis and anomaly detection; identifies trends before they peak.
-- **[Crayon](https://crayon.co)** - Tracks competitors' complete digital footprint—website changes, pricing, product launches, reviews, and ad strategies; AI automates insight prioritization from millions of data points.
+- **[elmohq/elmo](https://github.com/elmohq/elmo)**: Track how AI engines mention and cite your brand. Self-hostable. MIT.
+- **[limelit-co/open](https://github.com/limelit-co/open)**: Self-hosted tracking across ChatGPT, Claude, Perplexity, Gemini and Google. Apache-2.0.
+- **[danishashko/geo-aeo-tracker](https://github.com/danishashko/geo-aeo-tracker)**: Lightweight tracker plus AEO checker. MIT.
+- **[yaojingang/GEOInflow](https://github.com/yaojingang/GEOInflow)**: Self-hosted analytics for AI crawler visits and AI-referred traffic. MIT.
 
-**SMB-Friendly Alternatives:**
-
-- **[SpyFu](https://spyfu.com)** - Affordable SEO/PPC competitor research; see competitors' keywords, ad history, and ranking changes. Great for understanding what's working in paid search.
-- **[Visualping](https://visualping.io)** - Website change monitoring with AI-generated summaries. Get alerts when competitors update pricing, messaging, or product pages. Generous free tier.
-- **[Google Alerts](https://google.com/alerts)** - Free and dead simple. Set up alerts for competitor names, industry keywords, or executive mentions. Limited but costs nothing.
-- **[Awario](https://awario.com)** - Budget social listening tool tracking brand and competitor mentions across social, blogs, and forums. Good entry point before graduating to Brandwatch.
+> **Reality check:** AI answers vary by prompt, location and day. Treat any visibility score as a trend line, not a ranking. Fix what's clearly missing from your own site first; it's free and usually the biggest win.
 
 ---
 
-## Ad Creative & Copy
+## Workflows & Automation
 
-- **[AdCreative.ai](https://adcreative.ai)** - Generates hundreds of ad variations with "Creative Scoring" that predicts performance before publishing; connects directly to Facebook/Google for instant deployment.
-- **[Creatify](https://creatify.ai)** - Generates UGC-style video ads from product URLs using 1000+ lifelike AI avatars; AdMax feature finds competitor trends and runs structured A/B tests automatically.
-- **[Pencil](https://trypencil.com)** - Enterprise-grade GenAI ad creation that predicts performance and supplies language/audience variations; integrates with Adobe Firefly and Google Veo 2 for brand-safe creative.
+### Automation Platforms
 
----
+- **[n8n](https://n8n.io)**: Open-source, self-hostable automation and the go-to for AI agent workflows. Connects to OpenAI, Claude, Gemini and local models, with custom code at any step. Browse the [community workflow library](https://n8n.io/workflows/) before building from scratch.
+- **[Make](https://make.com/en/ai-automation)**: Visual automation with built-in AI modules and agents. More powerful than Zapier, more accessible than n8n.
+- **[Zapier](https://zapier.com)**: The most integrations and the lowest learning curve. Best for non-technical teams who want reliable automation fast.
 
-## Landing Pages & Conversion Optimization
+### Workflow Libraries
 
-**A/B Testing & Experimentation Platforms:**
+- [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates): 280+ free n8n templates, many for marketing (email, social, content, lead handling).
 
-- **[Optimizely](https://optimizely.com)** - The enterprise standard for experimentation with 37% A/B testing market share. Server-side testing, feature flags, and proprietary Stats Engine for faster statistical significance. Now includes CMS and content tools after acquiring multiple companies. Complex but powerful for teams running hundreds of tests.
-- **[VWO](https://vwo.com)** - Full conversion optimization suite combining A/B testing with heatmaps, session recordings, and surveys in one platform. More accessible than Optimizely with visual editor and transparent pricing. Strong for mid-market companies wanting experimentation without a data engineering team.
+### Playbooks (How the Work Gets Done)
 
-**Landing Page Builders:**
+- [How I Built a Source-Backed AI Article Pipeline](https://maxbraglia.substack.com/p/how-i-built-a-source-backed-ai-article-pipeline): Extract, reconcile, curate, write. Why I stopped prompting for articles.
+- [How I Actually Use ChatGPT and Codex to Get Work Done](https://maxbraglia.substack.com/p/how-i-actually-use-chatgpt-and-codex-to-get-work-done): Talk it through, turn it into a brief, hand it to the agent, automate what repeats.
+- [Build Your Brand Library AI Assistant in One Week](https://maxbraglia.substack.com/p/build-your-brand-library-ai-assistant-in-one-week): Turn scattered brand guidelines and assets into an assistant that drafts consistent, on-brand content.
 
-- **[Unbounce](https://unbounce.com)** - The original landing page builder and still a market leader. "Smart Traffic" AI routes visitors to variants most likely to convert; Dynamic Text Replacement matches headlines to ad keywords. Strong for PPC marketers who need fast iteration.
-- **[Leadpages](https://leadpages.com)** - Most affordable option with unlimited pages on all plans. Less flexible editor than Unbounce but easier for beginners; includes pop-ups, alert bars, and built-in checkout via Stripe. Good for small businesses and solopreneurs.
-- **[Instapage](https://instapage.com)** - Enterprise-focused with pixel-perfect editor, heatmaps, and real-time team collaboration. AdMap visualizes ad-to-page connections for message match. Powerful but premium pricing reflects it.
-- **[ClickFunnels](https://clickfunnels.com)** - Sales funnel builder rather than pure landing pages. Popular with info-product sellers and e-commerce for building complete purchase journeys. Has evolved into an all-in-one website platform.
-- **[Landingi](https://landingi.com)** - Budget-friendly European alternative with AI text generator, SEO tools, and EventTracker for scroll/click analytics. Good value for teams needing lots of pages without enterprise budgets.
-- **[Framer](https://framer.com)** - Design-first website builder with AI page generation and smooth animations. Loved by designers who want full creative control; less focused on traditional conversion optimization features.
+### Prompt Libraries (Still Useful)
 
----
+Skills have replaced a lot of one-off prompting. A good prompt is still the fastest way to test whether a task is worth automating.
 
-## Workflow Automation
-
-- **[n8n](https://n8n.io)** - The darling of AI builders. Open-source, self-hostable automation that's become the go-to platform for teams building AI agent workflows. 400+ integrations plus direct connections to OpenAI/Claude/Gemini/local LLMs via Ollama, and the ability to write custom JavaScript/Python at any step. Community has built 7,000+ workflow templates including 4,700+ AI-specific ones.
-- **[Make.com](https://make.com/en/ai-automation)** - Visual workflow automation with 400+ AI app integrations, native AI modules for prompting multiple LLMs, and AI agents (in beta). Good middle ground: more powerful than Zapier, more accessible than n8n. Strong for marketing teams who need AI without code.
-- **[Zapier](https://zapier.com)** - The household name with 8,000+ app integrations and the lowest learning curve. AI Actions let you add GPT-style capabilities to any workflow. Best for non-technical teams who want reliable automation fast.
+- [Claude Prompting Best Practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices): Anthropic's guide to getting better output from Claude.
+- [OpenAI Prompting Guide](https://developers.openai.com/api/docs/guides/prompting): Techniques for getting better output from GPT models.
+- [prompts.chat](https://github.com/f/prompts.chat) (formerly Awesome ChatGPT Prompts): The largest community prompt collection on GitHub.
+- [The Complete Prompt Engineering Toolkit](https://maxbraglia.substack.com/p/the-complete-prompt-engineering-toolkit): My practical guide for marketers.
 
 ### For Developers Building Custom Tools
 
-- **[Anthropic Claude API](https://anthropic.com/api)** - Direct API access for building custom marketing tools with Claude models.
-- **[OpenAI API](https://platform.openai.com)** - Same capability with GPT models. Choose based on your use case and preference.
-- **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** - Lightweight Python framework for multi-agent workflows. Built-in primitives for agents, handoffs, guardrails, and sessions. Production-ready evolution of the experimental Swarm project; supports 100+ LLMs via LiteLLM.
-- **[Agno](https://github.com/agno-agi/agno)** - Build, run and manage secure multi-agent systems in your cloud with Agno's AgentOS. Built for speed, scale, and developer experience.
-- **[CrewAI](https://github.com/crewAIInc/crewAI)** - Python framework for orchestrating role-based AI agent teams. Agents collaborate like human teams with defined roles, goals, and delegation. Over 100,000 developers certified; works with any LLM.
+- **[Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview)**: The framework behind Claude Code, for building your own agents.
+- **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)**: Lightweight Python framework for multi-agent workflows.
+- **[Agno](https://github.com/agno-agi/agno)**: My go-to when I need a framework. Agents, teams and workflows that run in your own cloud.
+- **[CrewAI](https://github.com/crewAIInc/crewAI)**: Role-based agent teams. Works with any LLM.
+- [Inside the Agent](https://insidetheagent.dev/): My free course. Understand how AI agents work, one Python step at a time, no framework required.
 
 ---
 
-## How to Use This List
+## Verification & Regulated Content
 
-### Before You Buy Anything
+Every AI tool gets things wrong sometimes. The question is whether you catch it before your audience, or a regulator, does.
 
-Most companies buy AI tools backwards—see a demo, get excited, swipe the card, then wonder why it's not moving the needle.
+**The verification paradox:** safe AI tasks are the ones where checking the output is easy, like drafting posts, brainstorming headlines or summarizing what you've already read. Risky tasks are the ones where checking takes the same expertise as doing the work, or where you won't know it's wrong until damage is done. Before adopting any tool or skill, ask: *how hard is it to verify this output?*
+
+### How to Build It In
+
+- [My AI Writer Isn't Allowed to Know Anything](https://maxbraglia.substack.com/p/my-ai-writer-isnt-allowed-to-know-anything): The model can suggest a fact but never vouch for one. Every figure is checked against an official source, enforced in code, not in the prompt.
+- [Building Compliance-First AI Content Workflows for Financial Advisors](https://maxbraglia.substack.com/p/building-compliance-first-ai-content-for-financial-advisors): How to speed up content in a regulated industry without skipping compliance review.
+- [The AI Hallucination Debate Is Missing the Point](https://maxbraglia.substack.com/p/the-ai-hallucination-debate-is-missing-the-point): Why verification design matters more than model choice.
+- The `audit-content` skill in [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) checks claims and sources in drafts before you publish.
+
+### Rules Worth Knowing
+
+- [FTC: Endorsements, Influencers, and Reviews](https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews): US rules on testimonials, reviews and influencer disclosures. They apply to AI-generated content too.
+- [SEC Marketing Rule FAQ](https://www.sec.gov/investment/marketing-faq): For financial advisors. Testimonials, performance claims and what counts as an advertisement.
+
+> **Rule of thumb for finance, health and legal:** have AI draft and flag, and have a human approve. Never let a model be the only source for a number, a claim or a promise.
+
+---
+
+## Tools by Job
+
+The best SaaS tools in each category, trimmed. Most tools now have an AI assistant built in. Pick based on fit first; the AI features rarely decide it.
+
+### Writing & Content
+
+- **[Claude](https://claude.ai)**, **[ChatGPT](https://chatgpt.com)**, **[Gemini](https://gemini.google.com)**: The foundation. Try the task here before paying for a specialized writing tool, since many are wrappers around the same models.
+- **[NEURONwriter](https://neuronwriter.com/)**: Semantic SEO content optimization with competitor-based recommendations. I've used it extensively, and the content ranks.
+- **[Frase](https://frase.io)**: SERP research and content briefs, plus AI search optimization.
+- **[Jasper](https://jasper.ai)**: Brand voice and governance for marketing teams producing content at volume.
+
+### SEO
+
+- **[OpenSEO](https://openseo.so/)**: My SEO tool of choice. An open-source alternative to Ahrefs and Semrush for keyword research, backlinks, rank tracking and site audits, billed by usage instead of a $100+ monthly subscription. Its [MCP server](https://openseo.so/docs/mcp) works really well with Claude and other agents. Self-host it for free ([GitHub](https://github.com/every-app/open-seo)) or use the hosted version. MIT.
+- **[Ahrefs](https://ahrefs.com)**: Industry-standard backlink and keyword data, now with AI visibility tracking (Brand Radar).
+- **[Semrush](https://semrush.com)**: The broadest SEO suite, with an AI Visibility Toolkit for ChatGPT, Perplexity and AI Overviews.
+- **[Surfer](https://surfer.ai)**: Content editor that scores drafts against top-ranking competitors, now expanding into AI search visibility.
+- **[Rank Math](https://rankmath.com)**: WordPress SEO plugin with AI help for meta tags and schema. Best free option for WordPress.
+
+### Social Media
+
+- **[Buffer](https://buffer.com)**: Scheduling with an AI assistant that adapts one idea to each platform. Generous free tier, and it just works.
+- **[Typefully](https://typefully.com)**: Writing and scheduling for X, LinkedIn, Threads and Bluesky. Popular with founders and creators.
+- **[Later](https://later.com)**: Visual-first scheduling for Instagram and TikTok.
+
+### Visual & Video
+
+- **[Fal](https://fal.ai/)**: One API for the top image, video and audio generation models. My go-to for media creation.
+- **[Canva](https://canva.com/magic/)**: Magic Studio for AI design, image editing and resizing at scale.
+- **[Descript](https://descript.com)**: Edit video by editing the transcript. Removes filler words and cuts social clips.
+- **[OpusClip](https://opus.pro)**: Turns long videos and podcasts into short clips with captions.
+- **[HeyGen](https://heygen.com)** / **[Synthesia](https://synthesia.io)**: AI avatar videos and translation. HeyGen leans marketing and UGC; Synthesia leans training and enterprise.
+
+### Email
+
+- **[Klaviyo](https://klaviyo.com)**: The e-commerce standard, especially on Shopify, with predictive analytics and AI segments.
+- **[Kit](https://kit.com)**: Built for creators and newsletters.
+- **[MailerLite](https://mailerlite.com)**: Affordable, clean, and an early MCP supporter.
+- **[Brevo](https://www.brevo.com)**: Budget-friendly with a generous free tier.
+- **[Instantly](https://instantly.ai)**: Cold email infrastructure and deliverability for outbound teams.
+
+### Customer Service
+
+- **[Fin](https://fin.ai/)**: Intercom's AI agent. Works with Zendesk, Salesforce or Intercom.
+- **[Zendesk AI](https://zendesk.com/service/ai/)**: Enterprise standard for AI-assisted support.
+- **[Tidio Lyro](https://www.tidio.com/ai-agent/)**: SMB-friendly AI support agent with a free trial.
+- **[Gorgias](https://gorgias.com)**: E-commerce support that can edit orders and process refunds in the platform.
+
+### Analytics
+
+- **Your AI assistant + an analytics MCP**: Connect GA4, Search Console or your ad accounts ([see above](#mcp-servers-for-marketing-data)) and ask questions in plain English. For most SMBs this now replaces a BI tool.
+- **[Julius](https://julius.ai)**: AI data analysis for larger datasets, with reusable Python/R code.
+- **[Mixpanel](https://mixpanel.com)** / **[Amplitude](https://amplitude.com)**: Product analytics with AI insights for funnels and retention.
+- **[Northbeam](https://northbeam.io)**: Multi-touch attribution and media mix modeling for e-commerce.
+
+### Competitive Intelligence
+
+- **[Similarweb](https://similarweb.com)**: Traffic and channel benchmarks for any website, including AI chatbot referral traffic.
+- **[SpyFu](https://spyfu.com)**: Affordable competitor SEO and PPC history.
+- **[Visualping](https://visualping.io)**: Alerts with AI summaries when competitor pages change.
+- **[Google Alerts](https://google.com/alerts)**: Free and dead simple.
+
+### Ads & Landing Pages
+
+- **[AdCreative.ai](https://adcreative.ai)**: Generates ad variations and scores them before launch.
+- **[Creatify](https://creatify.ai)**: UGC-style video ads from a product URL.
+- **[Unbounce](https://unbounce.com)**: Landing pages with Smart Traffic, which routes each visitor to the variant most likely to convert.
+- **[VWO](https://vwo.com)** (now part of Wingify): A/B testing plus heatmaps and session recordings.
+- **[Framer](https://framer.com)**: Design-first site builder with AI page generation.
+
+---
+
+## Before You Buy Anything
+
+Most companies buy AI tools backwards: they see a demo, get excited, swipe the card, then wonder why it's not moving the needle.
 
 ![Should You Buy This AI Tool?](assets/buy_the_ai_tool.png)
 
-**The decision tree:**
+1. **Can you name the specific problem?** Not "we need better efficiency." What exactly is broken?
+2. **Can you put a cost on it?** Time, money or opportunity. No number, no business case.
+3. **Does this tool solve *that* problem?** Not "could it maybe help with..."
 
-1. **Can you name the specific problem?** Not "we need better efficiency." What exactly is broken? If you can't articulate it clearly, don't buy yet.
-
-2. **Can you quantify the cost?** How much is this problem costing you in time, money, or opportunity? No number = no business case.
-
-3. **Does this tool solve THAT problem?** Not "could it maybe help with..." If it doesn't directly address your quantified problem, keep looking.
-
-Only when you hit three yeses do you run a small pilot.
-
-### The Verification Paradox
-
-Every AI tool hallucinates. The question isn't whether—it's whether you can catch it.
-
-The safer tasks are ones where verification is easy: drafting social posts, brainstorming headlines, summarizing content you've already read. The dangerous tasks are ones where checking the output requires the same expertise as doing it yourself—or where you won't know it's wrong until damage is done.
-
-Before adopting any tool on this list, ask: _How hard is it to verify this output?_ If you can't check it, you can't use it safely.
-
-Read more: [The AI Hallucination Debate Is Missing the Point](https://maxbraglia.substack.com/p/the-ai-hallucination-debate-is-missing-the-point)
-
-### General Guidelines
-
-- **Start with prompts before buying tools.** A well-crafted prompt to Claude or ChatGPT often eliminates the need for specialized software.
-- **Build systems, not one-offs.** Single AI experiments rarely create value. Repeatable workflows do.
+Three yeses? Run a small pilot, not a rollout. And try it as a prompt or a free skill first. If the workflow proves valuable, *then* pay for the tool that makes it faster, shared or reliable.
 
 ---
 
 ## Contributing
 
-Found a tool that actually works? Submit a PR with:
+Suggestions are welcome, but **this is a curated list, not a directory.** Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR. In short:
 
-- Tool name & link
-- What problem it solves (be specific)
-- When to use it / when NOT to use it
-
-### Contribution Guidelines
-
-**This is a curated list.** Not every submission will be accepted.
-
-Tools must:
-
-- Solve real marketing problems
-- Be actively maintained
-- Have been tested by you or verified by multiple users
-
-**We will remove:**
-
-- Dead/discontinued tools
-- Tools that get worse over time
-- Overpriced wrappers that don't add value
-- Tools with terrible UX that make AI harder to use
-
-Quality over quantity. Always.
+- Open-source skills, agents and MCP servers are the priority. They need a license, recent activity and real users.
+- Commercial tools are added at the maintainer's discretion, rarely, and only from direct experience or strong evidence.
+- **Disclose any affiliation.** Undisclosed self-promotion is closed without review.
 
 ---
 
 ## About
 
-Maintained by [Max Braglia](https://maxbraglia.com) - I build stuff for fun and profit | AI + Digital Marketing | Always learning, always building
+Maintained by [Max Braglia](https://maxbraglia.com). I build, market and monetize digital assets, and help small and regulated businesses put AI to work through [MaxterMedia](https://maxtermedia.com) and [RIA Marketing Engine](https://riamarketingengine.com).
 
-Writing about practical AI implementation at [AI That Works](https://maxbraglia.substack.com).
+I write about what actually works at [The Operator's Notebook](https://maxbraglia.substack.com).
 
-Connect: [LinkedIn](https://linkedin.com/in/maxbraglia) | [Twitter/X](https://x.com/maxbraglia)
+Connect: [LinkedIn](https://www.linkedin.com/in/maxbraglia/) · [X](https://x.com/maxbraglia) · [GitHub](https://github.com/jmedia65)
 
----
+No affiliate links. Nobody paid to be on this list.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License. See [LICENSE](LICENSE).
