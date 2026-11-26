@@ -105,6 +105,7 @@ Connect your assistant to the systems where your numbers live. **Start read-only
 
 - **[Google Ads MCP](https://github.com/googleads/google-ads-mcp)**: Official. Query campaigns, performance and search terms.
 - **[pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp)**: Meta (Facebook/Instagram) Ads for Claude, ChatGPT and Cursor. Community.
+- **[hermoso-ai/hermoso](https://github.com/hermoso-ai/hermoso)**: MCP server and CLI that let Claude, ChatGPT, Codex or Cursor research competitors' ads, make image and video ads, publish to social channels, and build and read campaigns on 16 ad platforms (Meta, Google, Microsoft, LinkedIn, TikTok, Reddit and more). Campaigns are created paused. Vendor-backed: connects to Hermoso's hosted service, which has a free plan. MIT.
 
 ### CRM, Email & Commerce
 
