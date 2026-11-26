@@ -2,7 +2,7 @@ name: Link check
 
 on:
   pull_request:
-    paths: ["README.md"]
+    paths: ["README.md", "CONTRIBUTING.md", ".github/workflows/link-check.yml"]
   schedule:
     - cron: "0 9 1 * *" # 1st of every month
   workflow_dispatch:
