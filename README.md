@@ -4,7 +4,7 @@
 
 **Last updated: November 2026** · Maintained by [Max Braglia](https://maxbraglia.com)
 
-![AI marketing tools dashboard with neural network connections](assets/awesome-ai-marketing-hero.jpg)
+![Awesome AI Marketing: curated AI skills, agents, MCP servers and tools for marketers](assets/awesome-ai-marketing-hero-v2.jpg)
 
 A year ago, "AI marketing" meant picking the right SaaS tool. Today a growing share of the work runs inside an AI assistant (Claude, ChatGPT/Codex, Cursor) using **skills** (reusable instructions), **MCP servers** (live connections to your ad accounts, analytics and CRM) and **agents** (multi-step workflows). This list is organized around that shift. The SaaS tools are still here, trimmed to the ones worth a look.
 
