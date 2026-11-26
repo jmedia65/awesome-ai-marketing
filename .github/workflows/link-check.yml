@@ -27,6 +27,8 @@ jobs:
             --timeout 30
             --accept 200,206,403,429
             --exclude 'ftc\.gov'
+            --exclude 'linkedin\.com'
+            --exclude 'gemini\.google\.com'
             README.md CONTRIBUTING.md
           fail: ${{ github.event_name == 'pull_request' }}
 
