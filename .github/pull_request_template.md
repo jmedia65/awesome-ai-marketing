@@ -9,8 +9,8 @@
 ## Checklist
 
 - [ ] I read [CONTRIBUTING.md](../CONTRIBUTING.md)
-- [ ] It's open source with a license (or an official MCP server from an established vendor)
-- [ ] It has commits within the last 3 months
+- [ ] It has an open-source or open-content license (or it's an official repo or MCP server from an established vendor)
+- [ ] It has commits within the last 6 months
 - [ ] The link has no tracking or affiliate parameters
 - [ ] The description is plain, not marketing copy
 
