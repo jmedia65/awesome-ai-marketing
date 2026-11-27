@@ -315,6 +315,8 @@ Suggestions are welcome, but **this is a curated list, not a directory.** Read [
 
 Maintained by [Max Braglia](https://maxbraglia.com). I build, market and monetize digital assets, and help small and regulated businesses put AI to work through [MaxterMedia](https://maxtermedia.com) and [RIA Marketing Engine](https://riamarketingengine.com).
 
+I also built [ai-visibility-audit](https://github.com/jmedia65/ai-visibility-audit), an open-source Agent Skill that audits how visible a local service business is to ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews, and gives you the five next fixes with evidence.
+
 I write about what actually works at [The Operator's Notebook](https://maxbraglia.substack.com).
 
 Connect: [LinkedIn](https://www.linkedin.com/in/maxbraglia/) · [X](https://x.com/maxbraglia) · [GitHub](https://github.com/jmedia65)
