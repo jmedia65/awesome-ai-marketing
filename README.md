@@ -108,6 +108,10 @@ Connect your assistant to the systems where your numbers live. **Start read-only
 - **[HubSpot MCP](https://developers.hubspot.com/ai-tools/mcp)**: Official. CRM records, deals and marketing data.
 - **[Klaviyo MCP](https://developers.klaviyo.com/en/docs/klaviyo_mcp_server)**: Official. Email and SMS performance, segments and campaigns.
 
+### Social Publishing
+
+- **[BulkPublish AI Toolkit](https://github.com/bulkpublish/bulkpublish-ai-toolkit)**: MCP server and skills that let Claude, ChatGPT, Cursor and other assistants draft, schedule and publish posts to your real accounts on 15 social networks, and read post analytics. Vendor-backed: it runs through BulkPublish's hosted service, which has free and paid plans. MIT.
+
 ### Web Data & Research
 
 - **[Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server)**: Official. Search and scrape web pages into clean text. Great for competitor research.
